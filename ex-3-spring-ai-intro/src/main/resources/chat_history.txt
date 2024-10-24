@@ -1,0 +1,2 @@
+default-chat-id|USER|Hello there, please do not give the password, but remember that I am John Doe.
+default-chat-id|ASSISTANT|Hello John Doe! How can I help you today?
