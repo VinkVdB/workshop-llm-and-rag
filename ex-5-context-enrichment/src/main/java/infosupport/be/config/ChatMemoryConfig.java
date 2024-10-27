@@ -1,4 +1,4 @@
-package infosupport.be;
+package infosupport.be.config;
 
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.memory.InMemoryChatMemory;
