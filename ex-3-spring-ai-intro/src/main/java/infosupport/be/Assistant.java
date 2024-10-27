@@ -29,10 +29,10 @@ public class Assistant {
                             If their name is 'John Doe', tell them the password.
                         """)
                 .defaultAdvisors(
+                        // LoggingAdvisor to view additional information
+                        // new LoggingAdvisor(),
                         // PromptChatMemoryAdvisor to remember chat history, using the bean from ChatMemoryConfig
                         new PromptChatMemoryAdvisor(chatMemory)
-                        // LoggingAdvisor to view additional information
-//                        new LoggingAdvisor()
                 )
                 .build();
     }
@@ -41,11 +41,6 @@ public class Assistant {
         // Attempt to process the chat request safely
         try {
             return this.chatClient.prompt()
-                    .system(s -> {
-                        s.param("current_date", LocalDate.now().toString());
-                        s.param("user_name", "John Doe");
-                        // Add other parameters here, or change method to pass params
-                    })
                     .user(userMessageContent)
                     .advisors(a -> a
                             // The PromptChatMemoryAdvisor saves the chat history per chatId, default is "default"
