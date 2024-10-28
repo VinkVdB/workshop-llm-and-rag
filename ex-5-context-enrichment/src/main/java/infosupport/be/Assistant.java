@@ -42,9 +42,7 @@ public class Assistant {
                         Use parallel function calling if useful or required.
                         """)
                 .defaultAdvisors(
-                        // LoggingAdvisor to view additional information
                         // new LoggingAdvisor(),
-                        // PromptChatMemoryAdvisor to remember chat history, using the bean from ChatMemoryConfig
                         new PromptChatMemoryAdvisor(chatMemory)
                 )
                 .build();
@@ -54,7 +52,6 @@ public class Assistant {
         // Truncate jokes to max characters
         String truncatedJokes = getTruncatedJokes(jokes);
 
-        // Attempt to process the chat request safely
         try {
             return this.chatClient.prompt()
                     .system(s -> {
@@ -64,15 +61,12 @@ public class Assistant {
                     })
                     .user(userMessageContent)
                     .advisors(a -> a
-                            // The PromptChatMemoryAdvisor saves the chat history per chatId, default is "default"
                             .param(CHAT_MEMORY_CONVERSATION_ID_KEY, chatId)
-                            // The number of chat messages to retrieve from the chat history, default is "100"
                             .param(CHAT_MEMORY_RETRIEVE_SIZE_KEY, 10)
                     )
                     .stream()
                     .content();
         } catch (Exception e) {
-            // Log and handle any exceptions that occur during chat processing
             log.error("An error occurred while processing the chat. Please try again.", e);
             return Flux.empty();
         }

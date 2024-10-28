@@ -20,7 +20,6 @@ public class Assistant {
 
     @Autowired
     public Assistant(ChatClient.Builder modelBuilder, ChatMemory chatMemory) {
-        // We use the injected ChatClient.Builder from Spring AI to build the ChatClient
         this.chatClient = modelBuilder
                 .defaultSystem("""
                         Greet the user and ask for their name.
@@ -38,20 +37,16 @@ public class Assistant {
     }
 
     public Flux<String> chat(String chatId, String userMessageContent) {
-        // Attempt to process the chat request safely
         try {
             return this.chatClient.prompt()
                     .user(userMessageContent)
                     .advisors(a -> a
-                            // The PromptChatMemoryAdvisor saves the chat history per chatId, default is "default"
                             .param(CHAT_MEMORY_CONVERSATION_ID_KEY, chatId)
-                            // The number of chat messages to retrieve from the chat history, default is "100"
                             .param(CHAT_MEMORY_RETRIEVE_SIZE_KEY, 10)
                     )
                     .stream()
                     .content();
         } catch (Exception e) {
-            // Log and handle any exceptions that occur during chat processing
             log.error("An error occurred while processing the chat. Please try again.", e);
             return Flux.empty();
         }

@@ -36,14 +36,9 @@ public class ModuleFiveApplication {
                 String userMessage = scanner.nextLine();
 
                 assistant.chat("default-chat-id", userMessage, jokes)
-                        // Delay each message to simulate chat
                         .delayElements(Duration.ofMillis(50))
                         .doOnNext(System.out::print)
-                        .onErrorResume(e -> {
-                            // Return empty to prevent blocking
-                            return Flux.empty();
-                        })
-                        // Block until we get the full response
+                        .onErrorResume(e -> Flux.empty())
                         .blockLast();
             }
         };
