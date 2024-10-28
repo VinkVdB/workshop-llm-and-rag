@@ -29,7 +29,7 @@ public class ModuleFourApplication {
                 String userMessage = scanner.nextLine();
 
                 assistant.chat("default-chat-id", userMessage)
-                        // Delay each message by 10ms to simulate chat
+                        // Delay each message to simulate chat
                         .delayElements(Duration.ofMillis(50))
                         .doOnNext(System.out::print)
                         .onErrorResume(e -> {

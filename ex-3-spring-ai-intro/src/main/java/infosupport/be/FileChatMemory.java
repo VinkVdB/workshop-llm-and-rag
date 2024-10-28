@@ -8,6 +8,10 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A chat memory implementation that stores messages in a file.
+ * Generated with ChatGPT
+ */
 @Slf4j
 public class FileChatMemory implements ChatMemory {
 
