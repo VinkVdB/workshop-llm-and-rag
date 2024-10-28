@@ -1,5 +1,8 @@
 package infosupport.be;
 
+import infosupport.be.domain.Joke;
+import infosupport.be.services.JokeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,20 +19,24 @@ public class ModuleFiveApplication {
         SpringApplication.run(ModuleFiveApplication.class, args);
     }
 
+    @Autowired
+    private JokeService jokeService;
+
     @Bean
     public CommandLineRunner runner(Assistant assistant) {
         return args -> {
             // Start the command-line chat interface
             Scanner scanner = new Scanner(System.in);
-            System.out.print("How can I help you today?");
+            System.out.print("I tell jokes to 'John Doe', how can I help you today?");
+            var jokes = jokeService.getAllJokes().stream().map(Joke::toString).toList();
 
             // Start the chat loop
             while (true) {
                 System.out.print("\n> ");
                 String userMessage = scanner.nextLine();
 
-                assistant.chat("default-chat-id", userMessage)
-                        // Delay each message by 10ms to simulate chat
+                assistant.chat("default-chat-id", userMessage, jokes)
+                        // Delay each message to simulate chat
                         .delayElements(Duration.ofMillis(50))
                         .doOnNext(System.out::print)
                         .onErrorResume(e -> {
