@@ -1,0 +1,1395 @@
+Name: Bulbasaur Fushigidane ( フシギダネ ) ( 0001 )
+Types: Grass / Poison
+Evolves From: —
+Evolves Into: Ivysaur (#0002)
+Notes: It is one of Kanto's starter Pokémon. It has a bulb on its back, which
+stores nutrients. Since the bulb can photosynthesize, Bulbasaur can go days
+without eating. As with the rest of its evolutionary line, its bulb has vines
+the Pokémon uses as tentacles.
+Name: Ivysaur Fushigisō ( フシギソウ ) ( 0002 )
+Types: Grass / Poison
+Evolves From: Bulbasaur (#0001)
+Evolves Into: Venusaur (#0003)
+Notes: It is a playable character in Super Smash Bros. Brawl and Super Smash
+Bros. Ultimate as a part of the "Pokémon Trainer" fighter. Its bulb has grown
+into a bud, which it uses to convert sunlight into power. The bud is heavy, to
+the point of rendering Ivysaur unable to move properly if it has stored enough
+nutrients, so its hind legs have grown stronger to counter the weight.
+Name: Venusaur Fushigibana ( フシギバナ ) ( 0003 )
+Types: Grass / Poison
+Evolves From: Ivysaur (#0002)
+Evolves Into: Mega Evolution Gigantamax
+Notes: It is the mascot of Pokémon Green and LeafGreen . [ 15 ] The bud on its
+back has bloomed into a flower. It has a soothing aroma, and converts sunlight
+into energy. For this reason, Venusaur is more powerful during the summer. It
+gained a Mega Evolution in generation VI, and a Gigantamax form in generation
+VIII.
+Name: Charmander Hitokage ( ヒトカゲ ) ( 0004 )
+Types: Fire
+Evolves From: —
+Evolves Into: Charmeleon (#0005)
+Notes: It is one of Kanto's starter Pokémon. From the moment it hatches, there
+is a flame at the tip of its tail. Still unfamiliar with fire, a Charmander
+might accidentally burn itself. If its flame goes out, it dies.
+Name: Charmeleon Rizādo ( リザード ) ( 0005 )
+Types: Fire
+Evolves From: Charmander (#0004)
+Evolves Into: Charizard (#0006)
+Notes: A feisty Pokémon, it seeks out potential opponents and torments them in
+battle. It attacks by spewing fire from its mouth, swinging its tail around, or
+clawing away. Its fire turns bluish-white when it is excited.
+Name: Charizard Rizādon ( リザードン ) ( 0006 )
+Types: Fire / Flying
+Evolves From: Charmeleon (#0005)
+Evolves Into: Two Mega Evolutions Gigantamax
+Notes: It is a playable character as a part of the "Pokémon Trainer" fighter in
+Super Smash Bros. Brawl and Super Smash Bros. Ultimate , a standalone fighter in
+Super Smash Bros. for Nintendo 3DS and Wii U , and the mascot of Pokémon Red and
+FireRed . Its fire is hot enough to melt boulders and glaciers, and it is known
+to start forest fires by accident, though it will not use it against weaker
+foes. The flame on its tail can burn underwater, and turns bluish-white if
+Charizard is angry. It gained two Mega Evolutions in generation VI, one
+Fire/Flying-type and one Fire/Dragon-type, and a Gigantamax form in generation
+VIII.
+Name: Squirtle Zenigame ( ゼニガメ ) ( 0007 )
+Types: Water
+Evolves From: —
+Evolves Into: Wartortle (#0008)
+Notes: It is a playable character in Super Smash Bros. Brawl and Super Smash
+Bros. Ultimate as a part of the "Pokémon Trainer" fighter, and one of Kanto's
+starter Pokémon. [ 16 ] After it hatches, its back gradually swells and hardens
+into a shell. It withdraws into its shell for protection or to sleep, and its
+grooved, rounded shape reduce its water resistance, allowing it to swim faster.
+To attack, it sprays foamy water from its mouth.
+Name: Wartortle Kamēru ( カメール ) ( 0008 )
+Types: Water
+Evolves From: Squirtle (#0007)
+Evolves Into: Blastoise (#0009)
+Notes: Because it is bigger and heavier than Squirtle, it has trouble walking,
+and has to use its furry ears and tail as rudders and balancing rods to swim. It
+withdraws into its shell to attack, defend itself, and sleep, though it cannot
+fully withdraw its tail. It is said to be able to live for up to 10,000 years.
+Older Wartortle have darker tail fur, and may have scars and algae on their
+shells.
+Name: Blastoise Kamekkusu ( カメックス ) ( 0009 )
+Types: Water
+Evolves From: Wartortle (#0008)
+Evolves Into: Mega Evolution [ 17 ] [ 18 ] [ 19 ] Gigantamax
+Notes: It is the mascot of Pokémon Blue . [ 20 ] The two cannons on its shell
+shoot out pressurized jets of water strong enough to shatter thick steel walls,
+and accurate enough to hit empty cans from over 160 feet away. Blastoise itself
+can tackle at high speeds. A cruel Pokémon, it deliberately makes itself heavier
+to withstand its cannons' recoil and crush its opponents. It gained a Mega
+Evolution in generation VI and a Gigantamax form in generation VIII. A Blastoise
+trading card, which was originally made as a test print before the commercial
+English cards, was sold for $360,000 in 2021. [ 21 ]
+Name: Caterpie Kyatapī ( キャタピー ) ( 0010 )
+Types: Bug
+Evolves From: —
+Evolves Into: Metapod (#0011)
+Notes: Its feet have suction pads that allow it to climb slopes, walls, and
+trees. To protect itself, it releases a stench from its antennae. It camouflages
+itself in piles of leaves, or tries to scare predators with the eye patterns on
+its body. Across its life, it eats hundreds of leaves, some bigger than itself.
+When nearing evolution, it sheds its skin, covers itself with silk, and becomes
+a cocoon.
+Name: Metapod Toranseru ( トランセル ) ( 0011 )
+Types: Bug
+Evolves From: Caterpie (#0010)
+Evolves Into: Butterfree (#0012)
+Notes: Though hard, Metapod's shell is said to be easy to break open, so it
+hardens it further when threatened to avoid spilling its thick, liquid innards.
+It waits for evolution while its cells restructure. Ume Aoki , a Japanese
+cartoonist who is famous for her work on the manga Hidamari Sketch and the anime
+Puella Magi Madoka Magica , utils a likeness of herself cosplaying as a Metapod
+in her drawn works. [ 22 ]
+Name: Butterfree Batafurī ( バタフリー ) ( 0012 )
+Types: Bug / Flying
+Evolves From: Metapod (#0011)
+Evolves Into: Gigantamax
+Notes: Its wings are covered in poisonous, water-repelling powder, which it uses
+to defend itself and fly in the rain. It goes from flower to flower to collect
+nectar, and rubs honey onto the hairs of its legs to carry back to its nest. It
+spreads its scales around to defend nearby Caterpie from predators. It competes
+with Cutiefly for territory. It gained a Gigantamax form in generation VIII.
+Name: Weedle Bīdoru ( ビードル ) ( 0013 )
+Types: Bug / Poison
+Evolves From: —
+Evolves Into: Kakuna (#0014)
+Notes: A common sight in forests and grassy areas, it has a two-inch poisonous
+stinger on its head, which it uses to defend itself. It has an acute sense of
+smell, being able to distinguish leaves it likes from those it dislikes with its
+big nose. It eats its weight in leaves every day.
+Name: Kakuna Kokūn ( コクーン ) ( 0014 )
+Types: Bug / Poison
+Evolves From: Weedle (#0013)
+Evolves Into: Beedrill (#0015)
+Notes: Kakuna remains immobile, but can stick out its stinger in self-defense.
+The process of its cells' rearrangement raises its body temperature to the point
+of making it hot to the touch.
+Name: Beedrill Supiā ( スピアー ) ( 0015 )
+Types: Bug / Poison
+Evolves From: Kakuna (#0014)
+Evolves Into: Mega Evolution
+Notes: Swarms of Beedrill set their nest in forests, and attack anything that
+goes near. It uses its three poisonous stingers to defeat its prey and carry
+them home. It gained a Mega Evolution in generation VI.
+Name: Pidgey Poppo ( ポッポ ) ( 0016 )
+Types: Normal / Flying
+Evolves From: —
+Evolves Into: Pidgeotto (#0017)
+Notes: A common and docile Pokémon, it prefers using flapping up sand in
+opponents' eyes over fighting. Its sense of direction allows it to return home
+from however far it may be.
+Name: Pidgeotto Pijon ( ピジョン ) ( 0017 )
+Types: Normal / Flying
+Evolves From: Pidgey (#0016)
+Evolves Into: Pidgeot (#0018)
+Notes: A territorial species, it will peck and claw at its opponents. It uses
+its claws to carry prey like Exeggcute for over 60 miles. It flies in circles,
+keeping a lookout for prey.
+Name: Pidgeot Pijotto ( ピジョット ) ( 0018 )
+Types: Normal / Flying
+Evolves From: Pidgeotto (#0017)
+Evolves Into: Mega Evolution
+Notes: Its wings are strong enough to fly at Mach 2 speed, whip up windstorms
+strong enough to bend trees, and fly up to 3,300 feet over the air. It skims
+over the water to hunt for unsuspecting fish Pokémon like Magikarp. Its glossy
+feathers make it a popular pick among trainers. It gained a Mega Evolution in
+generation VI.
+Name: Rattata Koratta ( コラッタ ) ( 0019 )
+Types: Normal
+Evolves From: —
+Evolves Into: Raticate (#0020)
+Notes: It will procreate and form nests anywhere that has enough food; each nest
+contains at least 40 Rattata. The colony spends entire days scavenging for food.
+A cautious species, it constantly listens around by moving its ears. Its incisor
+teeth do not stop growing, so it gnaws on hard objects, like table legs and door
+frames, to keep them ground down. Due to their commonness and habits of stealing
+food and gnawing on structures, it and Raticate are considered invasive species.
+Rattata has a Dark/Normal-type Alolan form .
+Name: Raticate Ratta ( ラッタ ) ( 0020 )
+Types: Normal
+Evolves From: Rattata (#0019)
+Evolves Into: —
+Notes: It uses its whiskers to maintain balance, and slows down if they are cut
+off. Its webbed hind feet act as flippers, allowing it to swim in rivers to hunt
+or escape from opponents. To keep its teeth ground down, it chews on anything,
+from machinery to concrete. Like Rattata, Raticate has a Dark/Normal-type Alolan
+form .
+Name: Spearow Onisuzume ( オニスズメ ) ( 0021 )
+Types: Normal / Flying
+Evolves From: —
+Evolves Into: Fearow (#0022)
+Notes: It can fly quickly, but is not adept at it. Its cries can be heard from a
+mile away, and it uses them to communicate with other Spearow. It flies around
+warmer climates, looking for bug Pokémon to eat.
+Name: Fearow Onidoriru ( オニドリル ) ( 0022 )
+Types: Normal / Flying
+Evolves From: Spearow (#0021)
+Evolves Into: —
+Notes: Drawings resembling Fearow can be seen ancient murals, implying that it
+has not evolved since ancient days. Its stamina lets it fly for an entire day,
+and its long neck and beak are convenient for plucking bug and fish Pokémon.
+Name: Ekans Ābo ( アーボ ) ( 0023 )
+Types: Poison
+Evolves From: —
+Evolves Into: Arbok (#0024)
+Notes: It uses its tongue to detect its surroundings and look for the scent for
+its prey. It wraps itself around trees to rest at night. If no trees are
+available, it coils to be able to respond from any given direction. It preys on
+bird Pokémon and their eggs and can stretch its jaw to swallow them whole, but
+eating something too big can leave it too heavy to move.
+Name: Arbok Ābokku ( アーボック ) ( 0024 )
+Types: Poison
+Evolves From: Ekans (#0023)
+Evolves Into: —
+Notes: The pattern under its head is similar to a face, and differs by region.
+Research has shown over 20 different patterns. Its coiling is strong enough to
+flatten oil drums, and its fangs are used to inject poison into its prey. It can
+use its pattern or hiss to intimidate opponents. If any part of its body besides
+its head is cut off, the rest of its body can grow back in weeks. It preys on
+smaller Pokémon like Wooper, or eggs of bird Pokémon like Pidgey and Spearow.
+Name: Pikachu Pikachū ( ピカチュウ ) ( 0025 )
+Types: Electric
+Evolves From: Pichu (#0172)
+Evolves Into: Raichu (#0026) Gigantamax
+Notes: Pikachu is the primary mascot of the Pokémon franchise, as well as
+Pokémon Yellow and Let's Go, Pikachu! . It is also playable in every Super Smash
+Bros. game. It raises its tail to check its surroundings, but may be struck by a
+lightning bolt in this position. It gathers electricity from the atmosphere, and
+uses it to roast berries, communicate with other Electric-type Pokémon, and
+attack its opponents. Groups of Pikachu having their tails raised can
+inadvertedly cause lightning storms. Cramorant often swallow Pikachu by
+accident.
+Name: Raichu Raichū ( ライチュウ ) ( 0026 )
+Types: Electric
+Evolves From: Pikachu (#0025)
+Evolves Into: —
+Notes: Its tail can be used as a lightning rod to gather electricity, or as a
+ground to protect itself. It can store and eject up to 100,000 volts, enough to
+knock out a Copperajah . To avoid physically straining itself, it will discharge
+excess electricity into the ground, leaving its surroundings burned. Because it
+evolves via a stone and Pikachu is more popular, Raichu are rarely seen. It has
+an Electric/Psychic-type Alolan form . Both forms of Raichu were created by
+Atsuko Nishida . [ 23 ]
+Name: Sandshrew Sando ( サンド ) ( 0027 )
+Types: Ground
+Evolves From: —
+Evolves Into: Sandslash (#0028)
+Notes: Based on the Chinese pangolin , Sandshrew is known to curl into a ball to
+defend itself. It burrows nests into the ground, and only digs back up to look
+for berries and hunt for bug Pokémon. Sandshrew has an Ice/Steel-type Alolan
+form .
+Name: Sandslash Sandopan ( サンドパン ) ( 0028 )
+Types: Ground
+Evolves From: Sandshrew (#0027)
+Evolves Into: —
+Notes: It can curl into a spiky ball to roll around, attack opponents, and
+protect itself from heatstroke or attacks. In addition to the spikes on its
+back, it can use its claws to attack and slash berries for its young. Like
+Sandshrew, it has an Ice/Steel-type Alolan form .
+Name: Nidoran♀ Nidoran♀ ( ニドラン♀ ) ( 0029 )
+Types: Poison
+Evolves From: —
+Evolves Into: Nidorina (#0030)
+Notes: Eggs from both Nidoran lines can contain Nidoran of either gender. It is
+docile and unwilling to fight, but when encouraged, its horn and barbs can
+secrete poison. It uses its whiskers to check the wind for predators, and its
+incisors for chewing through berries.
+Name: Nidorina Nidorīna ( ニドリーナ ) ( 0030 )
+Types: Poison
+Evolves From: Nidoran♀ (#0029)
+Evolves Into: Nidoqueen (#0031)
+Notes: Its horn grows slowly and it does not like fighting, but when forced to
+do so, it tends to resort to clawing and biting opponents. It lives in groups
+with others of its evolutionary line, and chews food for its young.
+Name: Nidoqueen Nidokuin ( ニドクイン ) ( 0031 )
+Types: Poison / Ground
+Evolves From: Nidorina (#0030)
+Evolves Into: —
+Notes: It is more defensively focused than its male counterpart, Nidoking. It
+can poison prey with its spikes, cause tremors, or knock opponents flying with
+tackles. It is protective of its children, carrying them in the gaps between its
+spines, and sealing its burrow. While around its young, its spikes do not
+secrete poison. Despite Pokédex and anime descriptions, it and Nidorina cannot
+breed, though Nidoran♀ can. [ 24 ]
+Name: Nidoran♂ Nidoran♂ ( ニドラン♂ ) ( 0032 )
+Types: Poison
+Evolves From: —
+Evolves Into: Nidorino (#0033)
+Notes: It flaps its ears around to detect potential opponents' footsteps. It
+injects poison into its prey with its horn. It lives with its female equivalent,
+and may risk its life to protect its female counterpart.
+Name: Nidorino Nidorīno ( ニドリーノ ) ( 0033 )
+Types: Poison
+Evolves From: Nidoran♂ (#0032)
+Evolves Into: Nidoking (#0034)
+Notes: Its horn and the spikes around its body are laced with poison, and its
+horn is harder than diamond. It uses its horn to break rocks to find Moon
+Stones, which it uses to evolve.
+Name: Nidoking Nidokingu ( ニドキング ) ( 0034 )
+Types: Poison / Ground
+Evolves From: Nidorino (#0033)
+Evolves Into: —
+Notes: It is more offensively-focused than its female counterpart, Nidoqueen.
+Its tail can topple transmission towers and crush its opponents' bones, its horn
+can crush diamonds, and its hide is as hard as steel. If it begins to rampage,
+only a Nidoqueen it has lived with for a long time can calm it down.
+Name: Clefairy Pippi ( ピッピ ) ( 0035 )
+Types: Fairy [ nb 3 ]
+Evolves From: Cleffa (#0173)
+Evolves Into: Clefable (#0036)
+Notes: Timid creatures, they rarely come out, only appearing in groups to dance
+under a full moon. While dancing, the nearby area is enveloped in a magnetic
+field.
+Name: Clefable Pikushī ( ピクシー ) ( 0036 )
+Types: Fairy [ nb 3 ]
+Evolves From: Clefairy (#0035)
+Evolves Into: —
+Notes: It and Clefairy are said to have come from the moon, and spend full moon
+nights staring at it. Its hearing is acute, being able to hear pin drops from up
+to 1,100 yards away, so it lives in quiet mountainous areas. Its steps are light
+and floaty enough to allow it to walk on water.
+Name: Vulpix Rokon ( ロコン ) ( 0037 )
+Types: Fire
+Evolves From: —
+Evolves Into: Ninetales (#0038)
+Notes: When it is born, it has one white tail that sprouts into 6 curled ones at
+the tip as it gets older. It can freely control fire, creating will-o-wisps that
+are commonly mistaken for ghosts. Before it evolves, its tails glow hotter than
+usual. If not properly groomed, its tails will tangle up. If raised young, it
+will follow its trainer like a puppy. It has an Ice-type Alolan form . It has
+been selected as an "ambassador" for Hokkaido , [ 25 ] [ 26 ] and it and its
+Alolan form have been featured in the livery of an Air Do Boeing 767 aircraft. [
+27 ]
+Name: Ninetales Kyūkon ( キュウコン ) ( 0038 )
+Types: Fire
+Evolves From: Vulpix (#0037)
+Evolves Into: —
+Notes: Its design is inspired by the nine-tailed fox of East Asian myth. [ 28 ]
+It can understand human speech, use its psychic power to control minds, and
+curse anyone who mistreats it. According to legends, nine saints reincarnated as
+Ninetales, and each of its tails has a different ability. It has an Ice/Fairytype
+Alolan form .
+Name: Jigglypuff Purin ( プリン ) ( 0039 )
+Types: Normal / Fairy [ nb 3 ]
+Evolves From: Igglybuff (#0174)
+Evolves Into: Wigglytuff (#0040)
+Notes: It is a playable character in every Super Smash Bros. game. It can
+inflate itself like a balloon to float around and it can sing. Its voice's
+wavelength can match the brain waves of sleeping people and Pokémon, lulling
+them to sleep. If the foe does not fall asleep, it can risk its life by singing
+until it runs out of air. It also keeps singing if the foe does fall asleep.
+Name: Wigglytuff Pukurin ( プクリン ) ( 0040 )
+Types: Normal / Fairy [ nb 3 ]
+Evolves From: Jigglypuff (#0039)
+Evolves Into: —
+Notes: By inhaling air, it can inflate itself to up to 20 times its size, and
+float around. It does so to scare opponents away or compete with other
+Wigglytuff.
+Name: Zubat Zubatto ( ズバット ) ( 0041 )
+Types: Poison / Flying
+Evolves From: —
+Evolves Into: Golbat (#0042)
+Notes: Zubat has evolved to not have eyes or nostrils, so it uses echolocation
+to find its way. It hides in dark places while the sun is out, as its skin is
+sensitive to bright lights. Groups of Zubat will gather around in the cold to
+heat each other's bodies.
+Name: Golbat Gorubatto ( ゴルバット ) ( 0042 )
+Types: Poison / Flying
+Evolves From: Zubat (#0041)
+Evolves Into: Crobat (#0169)
+Notes: Its fangs are hollow like straws. It uses them to stab through the hide
+of its prey, but may break them when trying to bite a Steel-type Pokémon. It may
+sometimes suck so much blood that its blood type changes to that of its prey,
+and its weight leaves it unable to fly, making it easy prey.
+Name: Oddish Nazonokusa ( ナゾノクサ ) ( 0043 )
+Types: Grass / Poison
+Evolves From: —
+Evolves Into: Gloom (#0044)
+Notes: It buries itself in the soil to absorb the nutrients and to sleep during
+the day. If pulled out, it starts screaming. A nocturnal Pokémon, it wanders
+around to scatter seeds and absorb moonlight. It is one of the few species with
+a scientific name ; "Oddium Wanderus."
+Name: Gloom Kusaihana ( クサイハナ ) ( 0044 )
+Types: Grass / Poison
+Evolves From: Oddish (#0043)
+Evolves Into: Vileplume (#0045) Bellossom (#0182)
+Notes: Its leaves and the drool-like nectar on its mouth smell rancid enough to
+cause fainting in a mile-wide radius, though some people enjoy the smell, and
+some use it to produce perfume. It amplifies the odor when in danger, and stops
+emitting it when safe.
+Name: Vileplume Rafureshia ( ラフレシア ) ( 0045 )
+Types: Grass / Poison
+Evolves From: Gloom (#0044)
+Evolves Into: —
+Notes: Vileplume's large petals can be shaken or forcibly bloomed to release
+clouds of pollen that poison and paralyze anything near it, which it uses to
+weaken its prey before eating it. Walking around causes it to spread pollen
+around, turning the air around it yellow.
+Name: Paras Parasu ( パラス ) ( 0046 )
+Types: Bug / Grass
+Evolves From: —
+Evolves Into: Parasect (#0047)
+Notes: Paras has tochukaso mushrooms growing on its back. They drain nutrients
+from the host and control it into draining nutrients from trees. Their spores
+can be used to make medicine. In Alola, those spores do not grow properly.
+Name: Parasect Parasekuto ( パラセクト ) ( 0047 )
+Types: Bug / Grass
+Evolves From: Paras (#0046)
+Evolves Into: —
+Notes: The tochukaso mushrooms have completely drained the Paras's body of its
+nutrients and taken it over. Groups of Parasect will gather around a tree, suck
+the nutrients out of it, and move to the next tree when it dies. Its spores can
+be made into medicine. Parasect in Alola are known to compete with Shiinotic,
+and have lower-quality spores. The bug is mostly dead, so removing the mushroom
+causes it to stop moving entirely.
+Name: Venonat Konpan ( コンパン ) ( 0048 )
+Types: Bug / Poison
+Evolves From: —
+Evolves Into: Venomoth (#0049)
+Notes: It uses its compounded eyes as a radar to locate prey in the dark, and
+can shoot light beams from them. It hunts for small bug Pokémon at night.
+Name: Venomoth Morufon ( モルフォン ) ( 0049 )
+Types: Bug / Poison
+Evolves From: Venonat (#0048)
+Evolves Into: —
+Notes: Its wings have scales that leak venom when in contact with its opponent's
+skin. Lighter scales can cause paralysis, and darker ones are poisonous. A
+nocturnal Pokémon, it goes out at night to hunt for prey. It is attracted to
+bright lights.
+Name: Diglett Diguda ( ディグダ ) ( 0050 )
+Types: Ground
+Evolves From: —
+Evolves Into: Dugtrio (#0051)
+Notes: Some farmers like to use Diglett and Dugtrio to plough the soil for crops
+to grow, and some consider them pests for eating crops. No one has ever seen the
+full body of a Diglett. It has a Ground/Steel-type Alolan form .
+Name: Dugtrio Dagutorio ( ダグトリオ ) ( 0051 )
+Types: Ground
+Evolves From: Diglett (#0050)
+Evolves Into: —
+Notes: Dugtrio is a three-headed Diglett. It can burrow at a speed of 60 miles
+per hour, and up to 60 miles underground. Like Diglett, no one has ever seen its
+full body. Occasionally, they will fight over which head gets to eat first. Like
+Diglett, Dugtrio has a Ground/Steel-type Alolan form .
+Name: Meowth Nyāsu ( ニャース ) ( 0052 )
+Types: Normal
+Evolves From: —
+Evolves Into: Persian (#0053) [ nb 4 ] Gigantamax
+Notes: One of the main members of Team Rocket in the Pokémon anime series.
+Meowth withdraws its claws into its paws to sneak around without leaving
+footsteps. It loves round and shiny objects, coins being its favorite toys,
+which it will play with until it falls asleep. It sleeps during the daytime, and
+patrols its territory during the night, looking for loose change. It tends to
+fight with Murkrow over shiny objects. Giving coins to a Meowth can make it
+friendlier, but no less fickle. Meowth has a Dark-type Alolan form, and a Steeltype
+Galarian form , which evolves into Perrserker . It gained a Gigantamax form
+in generation VIII. Meowth is a popular Pokémon among fans of the series,
+primarily due to its role on the villainous organization Team Rocket . [ 29 ] [
+30 ] [ 31 ] [ 32 ] It has widely been used in promotion for the series. [ 33 ] [
+34 ] [ 35 ] [ 36 ]
+Name: Persian Perushian ( ペルシアン ) ( 0053 )
+Types: Normal
+Evolves From: Meowth (#0052)
+Evolves Into: —
+Notes: Its fur and jewel make it popular with the rich, but its fickle, uncaring
+attitude makes it hard to raise. Though it will attack anyone without
+provocation, including its trainer, pulling on its whiskers will temporarily
+make it docile. It has a Dark-type Alolan form , and a Galarian counterpart in
+Perrserker , whose barbaric habits clash with both Persian's elegance and ego. A
+Persian is owned by Team Rocket's leader Giovanni in the Pokémon anime series.
+Name: Psyduck Kodakku ( コダック ) ( 0054 )
+Types: Water
+Evolves From: —
+Evolves Into: Golduck (#0055)
+Notes: It has constant headaches. When they worsen, normally inactive brain
+cells activate, causing it to accidentally unleash psychic energy. It then
+forgets that it used those powers.
+Name: Golduck Gorudakku ( ゴルダック ) ( 0055 )
+Types: Water
+Evolves From: Psyduck (#0054)
+Evolves Into: —
+Notes: It was almost hunted to extinction by hunters wanting the jewel on its
+forehead, believing it would grant them supernatural powers. Its psychic
+abilities are superior to Psyduck's. It swims effortlessly, even in rough,
+stormy seas. It is known to rescue people from wrecked ships.
+Name: Mankey Mankī ( マンキー ) ( 0056 )
+Types: Fighting
+Evolves From: —
+Evolves Into: Primeape (#0057)
+Notes: Nearly anything will anger it, and when it gets angry, it will
+immediately attack, giving its opponent no time to flee. If it does flee or is
+left alone, the loneliness will make it angrier. If one Mankey in a colony gets
+mad, the rest will rampage with it.
+Name: Primeape Okorizaru ( オコリザル ) ( 0057 )
+Types: Fighting
+Evolves From: Mankey (#0056)
+Evolves Into: Annihilape (#0979)
+Notes: Getting angry causes Primeape's blood to rush faster than usual,
+tightening its body muscles, but making it dumber. Any form of stimuli will
+anger it, even while it is asleep. It can get so angry that it dies as a result,
+but looks peaceful in death.
+Name: Growlithe Gādi ( ガーディ ) ( 0058 )
+Types: Fire
+Evolves From: —
+Evolves Into: Arcanine (#0059)
+Notes: Growlithe are friendly, loyal, and have a strong sense of smell, making
+them popular as guard and police dogs. Growlithe bones have been found in ruins
+from the Stone Age, implying that humans have used them since then. It is based
+on the Shisa . It has a Fire/Rock-type Hisuian form .
+Name: Arcanine Uindi ( ウインディ ) ( 0059 )
+Types: Fire
+Evolves From: Growlithe (#0058)
+Evolves Into: —
+Notes: Arcanine is a fan-favorite Pokémon and has been described as having "the
+mane of a lion... the stripes of a tiger [and] the speed of a panther". [ 37 ] [
+38 ] [ 39 ] It has been admired since the past for its beauty. It runs agilely
+as if on wings. Arcanine is known for its great speed, as it is said to be
+capable of running over 6,200 miles in a single day and night. The fire that
+blazes within Arcanine's body is its source of power. Legends tell of its
+fighting alongside a general and conquering a whole country. There are so many
+old tales about them that Arcanine is spoken of and categorized in the Pokédex
+as the Legendary Pokémon, though it is a common wild Pokémon. Like Growlithe, it
+has a Fire/Rock-type Hisuian form .
+Name: Poliwag Nyoromo ( ニョロモ ) ( 0060 )
+Types: Water
+Evolves From: —
+Evolves Into: Poliwhirl (#0061)
+Notes: Due to its underdeveloped legs, it is not good at standing or walking, so
+it prefers swimming, though its trainer should train it to walk every day.
+Despite the danger, it wants to come up on land, so it does its best to waddle
+along, but when an enemy finds it, it rushes back to the water. Poliwag's thin
+skin leaves its spiraling innards visible. If the swirl is tinged white, that
+means Poliwag is sick. Despite its thinness, its skin is flexible and slimy, so
+even sharp fangs bounce off of it. The direction of its spiral tends to differ
+by area. Poliwag experts can tell them apart at a glance. In rivers with fastflowing
+water, it will cling to a rock by using its lips, which act like a
+suction cup.
+Name: Poliwhirl Nyorozo ( ニョロゾ ) ( 0061 )
+Types: Water
+Evolves From: Poliwag (#0060)
+Evolves Into: Poliwrath (#0062) Politoed (#0186)
+Notes: Poliwhirl is among the most-marketed Pokémon. [ 40 ] [ 41 ] It can live
+in or out of the water, but prefers living in water where, it has fewer natural
+enemies and more plentiful prey. When out of water, it constantly sweats so its
+body is always wet and slick with an oily fluid. Because of this, it can easily
+slip out of the clutches of its enemies. Its health suffers when its skin dries
+out, so trainers have to keep it moist. It goes on land in search of bug
+Pokémon, then takes them underwater so it can safely eat them. The spiral
+pattern on its belly subtly moves, and staring at it for too long can lead
+children and Pokémon to sleep.
+Name: Poliwrath Nyorobon ( ニョロボン ) ( 0062 )
+Types: Water / Fighting
+Evolves From: Poliwhirl (#0061)
+Evolves Into: —
+Notes: A skilled swimmer, it can outswim professional athletes with ease, and
+children imitate its movements to learn to swim. It is also skilled in martial
+arts, and strong enough to punch boulders into dust. Despite being adapted to
+life in water, it chooses to live in dry land.
+Name: Abra Kēshii ( ケーシィ ) ( 0063 )
+Types: Psychic
+Evolves From: —
+Evolves Into: Kadabra (#0064)
+Notes: Even when sleeping, which Abra does for most of its life, it can sense
+danger with its highly potent psychic power. When it is in danger, it will
+teleport to safety. Its powers may be affected by what it is dreaming about.
+Name: Kadabra Yungerā ( ユンゲラー ) ( 0064 )
+Types: Psychic
+Evolves From: Abra (#0063)
+Evolves Into: Alakazam (#0065)
+Notes: In November 2000, Israeli magician Uri Geller sued Nintendo, claiming
+Kadabra embodies an unauthorized appropriation of his identity. [ 42 ] [ 43 ] [
+44 ] However, in 2020, he released a claim that Nintendo could use Kadabra in
+cards again. [ 45 ] Some Kadabra are theorized to have once been human children
+who could not control their powers. Its psychic powers can cause clocks to run
+backwards, or other devices to stop functioning.
+Name: Alakazam Fūdin ( フーディン ) ( 0065 )
+Types: Psychic
+Evolves From: Kadabra (#0064)
+Evolves Into: Mega Evolution
+Notes: Its brain cells multiply infinitely with age, amplifying its psychic
+powers and allowing it to remember everything since its hatching as an Abra. Its
+muscles are weak, so it lifts its body with its psychic powers. It may give its
+spoons to someone it trusts. It gained a Mega Evolution in generation VI.
+Name: Machop Wanrikī ( ワンリキー ) ( 0066 )
+Types: Fighting
+Evolves From: —
+Evolves Into: Machoke (#0067)
+Notes: Machop's muscles never get sore. It trains itself by lifting Graveler.
+Stronger, more confident Machop will compete with Makuhita .
+Name: Machoke Gōrikī ( ゴーリキー ) ( 0067 )
+Types: Fighting
+Evolves From: Machop(#0066)
+Evolves Into: Machamp (#0068)
+Notes: Machoke is typically used for heavy lifting jobs due to its strength.Its
+belt regulates its power, and it only removes it when faced with a particularly
+powerful opponent.
+Name: Machamp Kairikī ( カイリキー ) ( 0068 )
+Types: Fighting
+Evolves From: Machoke (#0067)
+Evolves Into: Gigantamax
+Notes: Machamp has four arms. It can throw around 500 punches in one second and
+move mountains with one arm. It has poor reflexes and dexterity, with its arms
+reacting faster than Machamp can think, and getting tangled up when doing
+delicate tasks. As with Machoke, its belt regulates its power, with more
+destructive consequences when removed. It gained a Gigantamax form in generation
+VIII.
+Name: Bellsprout Madatsubomi ( マダツボミ ) ( 0069 )
+Types: Grass / Poison
+Evolves From: —
+Evolves Into: Weepinbell (#0070)
+Notes: It can plant itself into the ground to absorb moisture, but is unable to
+move while rooted. It can spit acid from its mouth.
+Name: Weepinbell Utsudon ( ウツドン ) ( 0070 )
+Types: Grass / Poison
+Evolves From: Bellsprout (#0069)
+Evolves Into: Victreebel (#0071)
+Notes: It has a hook on its rear-end that it hooks on trees with and sleeps, but
+it may fall off if it moves around too much. If it cannot dissolve its prey with
+acid, it will cut them with its sharp leaves.
+Name: Victreebel Utsubotto ( ウツボット ) ( 0071 )
+Types: Grass / Poison
+Evolves From: Weepinbell (#0070)
+Evolves Into: —
+Notes: Groups of Victreebel wait in temperate forests for unsuspecting prey to
+walk into their mouths, mistaking their acid for nectar. The more prey it has
+consumed, the sweeter its acid smells.
+Name: Tentacool Menokurage ( メノクラゲ ) ( 0072 )
+Types: Water / Poison
+Evolves From: —
+Evolves Into: Tentacruel (#0073)
+Notes: It is 99% composed of water, with the other 1% being an organ that
+generates poison. If its tentacles are broken off, they can grow back quickly.
+Its body shrivels up while outside of water, but its poison does not. Though it
+is visually similar to Toedscool , the two species are not biologically related.
+Name: Tentacruel Dokukurage ( ドククラゲ ) ( 0073 )
+Types: Water / Poison
+Evolves From: Tentacool (#0072)
+Evolves Into: —
+Notes: Its 80 tentacles can grow back or shrink at will, and it uses them to
+constrict its prey while immobilizing it with poison. While rare, Tentacruel
+tend to hunt in groups. Though it is visually similar to Toedscruel , the two
+species are not biologically related.
+Name: Geodude Ishitsubute ( イシツブテ ) ( 0074 )
+Types: Rock / Ground
+Evolves From: —
+Evolves Into: Graveler (#0075)
+Notes: Geodude are proud of their hard bodies, showing them off or competing
+with Roggenrola, Carbink, or other Geodude to see who is the hardest. Groups of
+Geodude sit still in mountainous routes, so unsuspecting people often mistake
+them for ordinary rocks. It has a Rock/Electric-type Alolan form .
+Name: Graveler Gorōn ( ゴローン ) ( 0075 )
+Types: Rock / Ground
+Evolves From: Geodude (#0074)
+Evolves Into: Golem (#0076)
+Notes: It tumbles down mountains for transportation or fun, breaking most of
+what it crashes into. It does not mind if pieces of itself fall or are scraped
+off, as they can grow back. It has a Rock/Electric-type Alolan form .
+Name: Golem Gorōnya ( ゴローニャ ) ( 0076 )
+Types: Rock / Ground
+Evolves From: Graveler (#0075)
+Evolves Into: —
+Notes: It sheds its skin once a year to grow, which in turn crumbles into
+nutritious soil. It can withdraw its head and limbs into its hollow shell to
+roll around and down mountains, trampling whatever it passes through. To avoid
+crushing property, people dig grooves into mountains to guide it. Older Golem
+stop shedding and have moss growing on their shells. It has a Rock/Electric-type
+Alolan form .
+Name: Ponyta Ponīta ( ポニータ ) ( 0077 )
+Types: Fire
+Evolves From: —
+Evolves Into: Rapidash (#0078)
+Notes: When born, it cannot stand properly and runs with its parents to
+strengthen its legs. It can choose when its flames can burn people or not. It
+has a Psychic-type Galarian form .
+Name: Rapidash Gyaroppu ( ギャロップ ) ( 0078 )
+Types: Fire
+Evolves From: Ponyta (#0077)
+Evolves Into: —
+Notes: As a popular Pokémon, Rapidash is considered "universally appealing" to
+fans of cute and cool Pokémon alike. Both Ponyta and Rapidash can enable their
+body's flames to be harmful or harmless as seen in the anime. [ 46 ] [ 47 ] [ 48
+] [ 49 ] A competitive Pokémon, if it sees anything faster than it, such as a
+car or another Pokémon, it will run at up to 150 mph to try to outrun it. At
+that point, its hooves barely touch the ground. It can traverse all of Hisui in
+a day and a half. The faster it goes, the longer its mane becomes. Otherwise, it
+can be seen cantering in fields. It has a Psychic/Fairy-type Galarian form .
+Name: Slowpoke Yadon ( ヤドン ) ( 0079 )
+Types: Water / Psychic
+Evolves From: —
+Evolves Into: Slowbro (#0080) Slowking (#0199)
+Notes: Slowpoke is dumb and lazy, to the point of taking up to five seconds to
+process pain. It lives on the edges of bodies of water and uses its tail to fish
+for prey, but may take a day to notice that its tail has already been bitten
+off. Some cultures believe its yawns bring rain, and worship it. It evolves into
+Slowbro when a Shellder bites its tail, or into Slowking when it bites its head.
+It has a Psychic-type Galarian form .
+Name: Slowbro Yadoran ( ヤドラン ) ( 0080 )
+Types: Water / Psychic
+Evolves From: Slowpoke (#0079)
+Evolves Into: Mega Evolution
+Notes: Slowpoke has fished up a Shellder with its tail, which shocked it into
+evolving and made it stand on two legs. The Shellder has transformed into a
+spiral-shaped shell to suck more sweet fluids from the Slowbro's tail. If the
+Shellder were to detach itself from Slowbro in any way, it will devolve back to
+Slowpoke. Being slow-witted to begin with, the Slowbro does not feel pain in its
+tail because of Shellder's seeping poison. Since its tail has been bitten by
+Shellder, it has to grudgingly swim for prey instead. Whenever Shellder bites
+harder on its tail, it gives Slowbro a flash of inspiration, which it forgets a
+moment later. It gained a Mega Evolution in generation VI. It has a
+Poison/Psychic-type Galarian form .
+Name: Magnemite Koiru ( コイル ) ( 0081 )
+Types: Electric / Steel [ nb 5 ]
+Evolves From: —
+Evolves Into: Magneton (#0082)
+Notes: The two magnets on its side are used for discharging attacks and
+floating. It is attracted to electromagnetic waves from devices such as
+Pokégears, and attaches itself to power breakers. Power outages not caused by
+storms could be the result of a colony of Magnemite feeding on it. It becomes
+incapable of flight if it out of electricity. The two magnets on its side are
+powerful enough to draw in iron objects from up to 300 feet away, and get
+stronger the faster they spin. Touching it while it is eating electricity will
+give a full body shock. Its numbers have been decreasing because most modern
+power lines are buried under the ground.
+Name: Magneton Reakoiru ( レアコイル ) ( 0082 )
+Types: Electric / Steel [ nb 5 ]
+Evolves From: Magnemite (#0081)
+Evolves Into: Magnezone (#0462)
+Notes: Formed when several Magnemite fuse together, it tends to raise the
+temperature up by 3.6 °F within 3,600 ft (1,100 m). It generates strange radio
+signals. Groups of Magneton tend to gather where sun flares happen. Exposure to
+one can cause earaches. Its magnetism is so powerful it dries up moisture in its
+vicinity, and is potentially fatal to devices like TVs. As a result, large
+cities have sirens to warn their citizens of Magneton appearances, and trainers
+are warned to keep Magneton inside their Poké Balls. When it evolves, the
+Magnemite's brains link up, though they do not become three times smarter. When
+rain clouds form, they like to gather in high spots where lightning could
+strike. Sandy Shocks appears to be an ancient relative of it.
+Name: Doduo Dōdō ( ドードー ) ( 0084 )
+Types: Normal / Flying
+Evolves From: —
+Evolves Into: Dodrio (#0085)
+Notes: Its short wings make flying difficult, so it has instead become a
+powerful runner, being able to reach speeds of 60 mph. Both heads have identical
+brains, though it is believed that some Doduo have different brains. It raises
+and lowers its heads to maintain balance while running. One head will stay on
+alert while the other sleeps.
+Name: Dodrio Dōdorio ( ドードリオ ) ( 0085 )
+Types: Normal / Flying
+Evolves From: Doduo (#0084)
+Evolves Into: —
+Notes: The head with the thickest neck is deemed the leader, and has control
+over the body. The three heads express joy, sorrow, and anger as they plan
+strategies together. If they cannot agree on something to do or overthink their
+plans, they will be unable to move. When two heads sleep, one head remains
+awake. It has three hearts and six lungs, giving it increased endurance, so
+while it is slower than Doduo, it can run for longer periods of time.
+Name: Seel Pauwau ( パウワウ ) ( 0086 )
+Types: Water
+Evolves From: —
+Evolves Into: Dewgong (#0087)
+Notes: It loves swimming around in 14 °F waters. Its horn is hard enough to bash
+its way through ice. It has a thick hide covered in warm fur. It goes in waters
+up to -40 °F. Though not a great walker, it is a skilled swimmer. It closes its
+nostrils when it swims. In the daytime, it can be found sleeping on the seabed
+of shallow waters. Their presence in the Alolan climate is considered a mystery.
+Name: Dewgong Jugon ( ジュゴン ) ( 0087 )
+Types: Water / Ice
+Evolves From: Seel (#0086)
+Evolves Into: —
+Notes: Dewgong can store thermal energy in its body to withstand cold
+temperatures. At night, it hunts for prey like Wishiwashi , and during the day,
+it sleeps on ice or shallow water, or sunbathes on beaches. A fisherman once
+mistook a Dewgong on an iceberg for a mermaid.
+Name: Grimer Betobetā ( ベトベター ) ( 0088 )
+Types: Poison
+Evolves From: —
+Evolves Into: Muk (#0089)
+Notes: Being mostly composed of poisonous filth, it can squeeze into sewage
+pipes with ease. Grimer lived mostly in urban cities, factories, and lakes,
+where it could find waste to consume, though environmental improvements have
+caused its population to start dwindling. It has a Poison/Dark-type Alolan form
+.
+Name: Muk Betobeton ( ベトベトン ) ( 0089 )
+Types: Poison
+Evolves From: Grimer (#0088)
+Evolves Into: —
+Notes: It is based on the dorotabō, a one-eyed, three-fingered yōkai that rises
+from the mud of neglected, overgrown rice fields. Muk is covered in a toxic
+filthy sludge so vile that any land it walks through becomes inhospitable for up
+to three years. A drop of its body fluid can turn a pool rancid or leave a
+person bedridden for days. Its nose has devolved, so it cannot smell anything.
+It feeds on anything repugnant and filthy, like sewer water. Its numbers have
+started declining since people have begun cleaning up towns, and because some
+people think it may go extinct, sludge pools are being built to prevent this.
+Like Grimer, it has a Poison/Dark-type Alolan form .
+Name: Shellder Sherudā ( シェルダー ) ( 0090 )
+Types: Water
+Evolves From: —
+Evolves Into: Cloyster (#0091)
+Notes: Tugging on its tongue, which is always sticking out, will startle it into
+opening its shell. It opens and closes its shell in rapid succession to propel
+itself backwards. Shellder have been known to seek out Slowpoke's tails,
+inadvertently causing them to evolve into Slowbro. Biting its head will instead
+cause it to evolve into Slowking. It and Cloyster are related to the Shellos
+line.
+Name: Cloyster Parushen ( パルシェン ) ( 0091 )
+Types: Water / Ice
+Evolves From: Shellder (#0090)
+Evolves Into: —
+Notes: It normally keeps its shell closed unless it is attacking. It uses the
+same projectile system — swallowing seawater and ejecting it from the front or
+rear — to shoot its spikes and swim. Its internal anatomy has yet to be seen.
+Name: Gastly Gōsu ( ゴース ) ( 0092 )
+Types: Ghost / Poison
+Evolves From: —
+Evolves Into: Haunter (#0093)
+Notes: It hides under structures to stop the wind from blowing away its gaseous
+body. It engulfs prey of any size with its gas, poisoning it through its skin or
+suffocating it.
+Name: Haunter Gōsuto ( ゴースト ) ( 0093 )
+Types: Ghost / Poison
+Evolves From: Gastly (#0092)
+Evolves Into: Gengar (#0094)
+Notes: Because of its ability to slip through walls, Haunter is said to be from
+another dimension. It saps its victims' life by licking them with its cold,
+gaseous tongue. Those licked by it grow weaker with each passing day, shaking
+uncontrollably until they die. If one trips and falls for no apparent reason or
+hear a sound when no one is around, it may be a Haunter. Because it fears the
+light and revels in the dark, it may be on the verge of extinction in cities
+that stay brightly lit at night. On moonless nights, Haunter searches for
+someone to curse.
+Name: Gengar Gengā ( ゲンガー ) ( 0094 )
+Types: Ghost / Poison
+Evolves From: Haunter (#0093)
+Evolves Into: Mega Evolution Gigantamax Form
+Notes: Gengar seeps into the shadows of people and Pokémon to scare them for fun
+or eat their life force. A sudden chill of 10 °F or cooler may be a Gengar
+trying to curse someone. Gengar will lurk in whatever dark corner of a room it
+can find and wait for its chance to catch its prey. It likes to attack people in
+mountains. Sometimes, Gengar will pose as people's shadows. It apparently wishes
+for a traveling companion. Since it may have once been human, it tries to create
+one by taking the lives of other humans. Initially created by Satoshi Tajiri and
+Ken Sugimori , [ 50 ] [ 51 ] it has become one of the most popular Pokémon,
+placing tenth on the Google Pokémon of the Year 2020 poll. [ 52 ] Kotaku' s Zack
+Zwiezen said Gengar was "one of [their] favorite gen 1 designs", calling it a
+"great design [because] it's simple, yet not boring or generic". [ 53 ] Gengar
+has appeared in many Pokémon spin-offs or crossovers, including Pokkén
+Tournament [ 54 ] and Pokémon Unite . [ 55 ] It gained a Mega Evolution in
+generation VI and a Gigantamax form in generation VIII.
+Name: Onix Iwāku ( イワーク ) ( 0095 )
+Types: Rock / Ground
+Evolves From: —
+Evolves Into: Steelix (#0208)
+Notes: It usually lives underground. As it grows, the stone portions of its body
+harden to become similar to a diamond, but colored black. Despite its large body
+being over 26 feet long, it can squirm its way through the ground at 50 mph. As
+it digs through the ground, it eats hard objects, which makes its body more
+solid. Diglett may use the tunnels it burrows as homes. Onix has a magnet in its
+brain, which acts as a compass so that it does not lose direction while it is
+tunneling. As it grows older, its body becomes increasingly rounder and
+smoother. It evolves into Steelix when traded while holding a Metal Coat. [ 8 ]
+[ 56 ] [ 57 ] [ 58 ] While its Defense and Speed are high, Onix' other values
+are deceptively low, making it a relatively weak Rock-type choice compared to
+Golem and Rhydon. [ 59 ]
+Name: Drowzee Surīpu ( スリープ ) ( 0096 )
+Types: Psychic
+Evolves From: —
+Evolves Into: Hypno (#0097)
+Notes: Drowzee's design is based on the dream-eating tapir Baku . It puts people
+to sleep with its hypnotism and eats their dreams through their noses. It can
+get sick from eating nightmares. If one sleeps by it frequently, it might show
+them dreams it ate in the past. If someone has forgotten their dreams, Drowzee
+may have eaten them. It remembers every dream it has eaten, and rarely eats the
+dreams of adults because children's are tastier.
+Name: Hypno Surīpā ( スリーパー ) ( 0097 )
+Types: Psychic
+Evolves From: Drowzee (#0096)
+Evolves Into: —
+Notes: Hypno's design is based on the dream-eating tapir Baku and a hypnotist .
+Hypno holds a pendulum in its hand. [ 60 ] Allegedly, there once was an incident
+in which it took away a child it hypnotized. [ 61 ] When hungry, it puts humans
+it meets to sleep, then feasts on their dreams and carries away anyone having
+good dreams. Hypno sometimes aid doctors in putting patients to sleep, but other
+members of the species enjoy feasting on good dreams and kidnap those who have
+them. [ 62 ] Since its inception, Hypno has been regarded for its dark
+backstory, primarily its child-abducting tendencies. [ 61 ] Its humanoid design
+has been cited as creepy, and a reason why its design was considered
+unappealing. [ 63 ] Hypno's child abducting tendencies resulted in a popular
+creepypasta , dubbed "Hypno's Lullaby" being created, which centered around a
+song focusing on Hypno as a child thief . [ 63 ] [ 64 ] Hypno's Lullaby was
+adapted into several playable adaptations, notably ROM hacks . [ 65 ] [ 66 ] [
+67 ]
+Name: Krabby Kurabu ( クラブ ) ( 0098 )
+Types: Water
+Evolves From: —
+Evolves Into: Kingler (#0099)
+Notes: Krabby and Kingler live near the edge of water, usually in beaches. It
+can shroud its body in foam to look bigger than it is. If damaged or lost in
+battle, its pincers grow back quickly, though it has trouble balancing without
+them.
+Name: Kingler Kingurā ( キングラー ) ( 0099 )
+Types: Water
+Evolves From: Krabby (#0098)
+Evolves Into: Gigantamax
+Notes: Its left claw has grown twice as big as its right, and is now strong
+enough to break Cloyster shells open. However, swinging it can cause balancing
+issues and tire it out. Kingler are said to communicate with each other by
+waving their pincers around. It gained a Gigantamax form in generation VIII.
+Name: Voltorb Biriridama ( ビリリダマ ) ( 0100 )
+Types: Electric
+Evolves From: —
+Evolves Into: Electrode (#0101)
+Notes: It is believed that Voltorb was created when a Poké Ball was hit with an
+energy pulse. When agitated or tapped, it will explode. Sometimes, humans will
+mistake a stray Voltorb for a Poké Ball, touch it, and get shocked or exploded.
+It has an Electric/Grass-type Hisuian form .
+Name: Electrode Marumain ( マルマイン ) ( 0101 )
+Types: Electric
+Evolves From: Voltorb (#0100)
+Evolves Into: —
+Notes: Electrode resembles an upside-down Poké Ball, though its actual relation
+to them has yet to be confirmed. Unlike Voltorb, it can control its explosions,
+but will still explode at any time and for any reason. Groups of Electrode live
+in power plants and eat their electricity, causing blackouts. Like Voltorb, it
+has an Electric/Grass-type Hisuian form .
+Name: Exeggcute Tamatama ( タマタマ ) ( 0102 )
+Types: Grass / Psychic
+Evolves From: —
+Evolves Into: Exeggutor (#0103)
+Notes: Though it may look like eggs, Exeggcute are actually clusters of seeds.
+When cracks increasingly appear on the seeds, Exeggcute is close to evolution.
+When disturbed, they quickly gather and attack in swarms. If one is separated
+from the group, the six will quickly regroup with telepathy. Although they are
+the same size as others, Alolan Exeggcute are heavier than others, as their
+shells are packed full. They are often hunted by Pidgeotto and Crabrawler, but
+uses psychokinesis to drive it off.
+Name: Exeggutor Nasshī ( ナッシー ) ( 0103 )
+Types: Grass / Psychic
+Evolves From: Exeggcute (#0102)
+Evolves Into: —
+Notes: It is a coconut tree -esque Pokémon based on the jinmenju , and the
+favorite Pokémon of Tsunekazu Ishihara , president and CEO of The Pokémon
+Company , having used it throughout the debugging phase of Pokémon Red and Green
+. [ 68 ] Its three heads think independently of each other, and become unable to
+act if they disagree on what to do. They communicate via telepathy. Sometimes,
+one of the heads grows so big that it falls off and becomes an Exeggcute. Its
+cries are noisy due to each head thinking about something else. Exeggutor are
+friendly, and only engage their enemies with psychic power when they need to. It
+has a Grass/Dragon-type Alolan form .
+Name: Cubone Karakara ( カラカラ ) ( 0104 )
+Types: Ground
+Evolves From: —
+Evolves Into: Marowak (#0105)
+Notes: Cubone wears the skull of its deceased mother. Since it never removes
+said skull, no one has ever seen Cubone's real face. The stains on the skull it
+wears are made by the tears it sheds. When it thinks of its deceased mother, it
+weeps loudly, and Mandibuzz that hear its cries will attack it from the air. Its
+name is a combination of "cub" and "bone". [ 10 ]
+Name: Marowak Garagara ( ガラガラ ) ( 0105 )
+Types: Ground
+Evolves From: Cubone (#0104)
+Evolves Into: —
+Notes: The bone it holds is its key weapon. It throws the bone like a boomerang
+to knock out targets. Originally a Cubone, it overcame its mother's death and
+became rough and aggressive. Some say that a Marowak graveyard exists somewhere
+in the world. It carries out vengeance on its natural enemy, Mandibuzz, as it
+throws bones to try to take it down. They thump their bones rhythmically to
+communicate among themselves, with nearly 50 different rhythmic patterns. It has
+a Ghost/Fire-type Alolan form .
+Name: Hitmonlee Sawamurā ( サワムラー ) ( 0106 )
+Types: Fighting
+Evolves From: Tyrogue (#0236)
+Evolves Into: —
+Notes: Hitmonlee's design is based on headless men . It may also be based on
+Kabandha . Its English name is derived from actor and martial artist Bruce Lee ,
+[ 10 ] while its Japanese name is derived from kickboxer Tadashi Sawamura . When
+in a hurry, its legs strengthen progressively. Its balance lets it attack from
+any stance. Some call it the "Kick Master". After a battle, it rubs down its
+springy legs to overcome fatigue. Its legs can stretch to double its length.
+Hitmonlee and Hitmonchan did not have a distinct evolutionary line until Tyrogue
+and Hitmontop were conceived. Hitmonlee evolves from Tyrogue if it has higher
+Attack than Defense.
+Name: Hitmonchan Ebiwarā ( エビワラー ) ( 0107 )
+Types: Fighting
+Evolves From: Tyrogue (#0236)
+Evolves Into: —
+Notes: Its English name is derived from actor and martial artist Jackie Chan , [
+10 ] while its Japanese name is derived from boxer Hiroyuki Ebihara . It can
+punch fast enough to slice air and hard enough to break rocks, though it needs
+to rest for a couple minutes after doing so. It winds it arms to punch harder,
+and punches in a corkscrew fashion. A Hitmonchan is said to possess the spirit
+of a boxer who had been working towards a world championship. It evolves from
+Tyrogue if it has higher Defense than Attack.
+Name: Lickitung Beroringa ( ベロリンガ ) ( 0108 )
+Types: Normal
+Evolves From: —
+Evolves Into: Lickilicky (#0463)
+Notes: Instead of its hands, it uses its long, prehensile tongue. It paralyzes
+bug Pokémon by licking them, and eats them whole. If not immediately washed, its
+licks can cause itchy rashes. Its tongue can stretch up to 6 inches, and when it
+does, its tail quivers and contracts. It has nerves that run through its tongue,
+so it can use it freely. It licks filthy things to clean them, but its saliva is
+still smelly and grimy, so they do not end up much cleaner. Whenever Lickitung
+comes across something new, it licks it to memorize the taste and texture of
+that thing. When its saliva is boiled, it becomes a strong adhesive.
+Name: Koffing Dogāsu ( ドガース ) ( 0109 )
+Types: Poison
+Evolves From: —
+Evolves Into: Weezing (#0110)
+Notes: Koffing is based on air pollution and meteorites. It mixes its toxins
+with the rotting trash it eats to make poisonous gases. Sometimes, it can overinflate
+itself and explode.
+Name: Weezing Matadogasu ( マタドガス ) ( 0110 )
+Types: Poison
+Evolves From: Koffing (#0109)
+Evolves Into: —
+Notes: Said to form when two Koffing fuse. Weezing will nest in unkept,
+unsanitary places, usually houses, and raid their trash. Its two heads have
+different toxins, and it makes its poisonous gas stronger and smellier by
+pushing it between said heads. It has a Poison/Fairy-type Galarian form .
+Despite this, Kantonian Weezing were once a common sight in Galar, and produced
+stronger gases than other regions' Weezing.
+Name: Rhyhorn Saihōn ( サイホーン ) ( 0111 )
+Types: Ground / Rock
+Evolves From: —
+Evolves Into: Rhydon (#0112)
+Notes: Because it is not good at turning, Rhyhorn runs in a straight line,
+destroying anything in its way. Though it can knock a block of steel down
+without much care, its head may be sore the next day. Its massive bones are
+1,000 times harder than those of humans, and it can easily send a trailer
+flying. As a Pokémon with a one-track mind, when it starts running, it will not
+stop until it falls asleep. Rhyhorn's brain is so small and dense that it
+usually forgets why it may be running.
+Name: Rhydon Saidon ( サイドン ) ( 0112 )
+Types: Ground / Rock
+Evolves From: Rhyhorn (#0111)
+Evolves Into: Rhyperior (#0464)
+Notes: Rhydon was the first Pokémon created by Game Freak. [ 69 ] Unlike
+Rhyhorn, it is bipedal. Protected by an armor-like hide, it can survive in lava
+over 3,600 °F (1,980 °C) and take direct hits from cannonballs. By rapidly
+rotating its drill-like horn, it can punch holes through boulders and diamonds,
+while one sweep of its tail can topple a building. Its brain developed when it
+began walking on its hind legs.
+Name: Chansey Rakkī ( ラッキー ) ( 0113 )
+Types: Normal
+Evolves From: Happiny (#0440)
+Evolves Into: Blissey (#0242)
+Notes: The eggs it carries in its pouch can heal its eaters and make them
+happier. For this reason, they are often employed in Pokémon Centers.
+Name: Tangela Monjara ( モンジャラ ) ( 0114 )
+Types: Grass
+Evolves From: —
+Evolves Into: Tangrowth (#0465)
+Notes: Its whole body is covered with thick blue vines, concealing its identity.
+It will tangle and get entangled with nearly anything. Tangela's vines snap off
+painlessly and easily if they are grabbed, allowing it to escape. The lost vines
+grow back the next day. The vines of a Tangela have a distinct scent, and in
+some parts of Galar, are used as herbs.
+Name: Kangaskhan Garūra ( ガルーラ ) ( 0115 )
+Types: Normal
+Evolves From: —
+Evolves Into: Mega Evolution
+Notes: The female raises its young in its belly pouch for around three years,
+and during this time, the baby rarely ventures out. The young leaves home once
+it learns to find food, and its mother begins to miss it. To avoid crushing the
+baby, it sleeps standing up. A young Kangaskhan playing on its own is not to be
+disturbed or caught, as its mother will be supervising it. There are records of
+a lost human child being raised by a childless Kangaskhan. They live in groups.
+It gained a Mega Evolution in generation VI.
+Name: Horsea Tattsū ( タッツー ) ( 0116 )
+Types: Water
+Evolves From: —
+Evolves Into: Seadra (#0117)
+Notes: Horsea and Seadra are based on seahorses . [ 70 ] It feeds on bug Pokémon
+and moss. It can fire water from its mouth to attack foes in or out of water, or
+ink to deter attackers. By spinning its body, it can create whirlpools.
+Name: Seadra Shīdora ( シードラ ) ( 0117 )
+Types: Water
+Evolves From: Horsea (#0116)
+Evolves Into: Kingdra (#0230)
+Notes: It can swim in any direction by flapping its fins and tail. It creates
+whirlpools to exhaust its prey, and eats it whole. Male Seadra will take care of
+newborn Horsea. While doing so, the poison on the tips of its fins becomes
+thicker and stronger than usual.
+Name: Goldeen Tosakinto ( トサキント ) ( 0118 )
+Types: Water
+Evolves From: —
+Evolves Into: Seaking (#0119)
+Notes: Goldeen and Seaking are based on goldfish . [ 70 ] Goldeen was originally
+intended to have a pre-evolution called "Gyopin", but it was cut from the game
+due to a lack of cartrige space. [ 71 ] If kept in an aquarium, it will use its
+horn to break out. Swimmers have to be careful in water, so that Goldeen do not
+ram into them.
+Name: Seaking Azumaō ( アズマオウ ) ( 0119 )
+Types: Water
+Evolves From: Goldeen (#0118)
+Evolves Into: —
+Notes: Seaking is known to be able to swim against streams and up waterfalls. It
+will use its horn to bore holes into rocks to lay eggs in. Fans of Seaking's
+horn and fins are known to fight each other.
+Name: Staryu Hitodeman ( ヒトデマン ) ( 0120 )
+Types: Water
+Evolves From: —
+Evolves Into: Starmie (#0121)
+Notes: It is a basic Pokémon which resembles a starfish with a mechanical center
+on its body, housing a red jewel. This organ is known as its core. As long as
+the jewel is unharmed, it can regenerate the rest of its body.
+Name: Starmie Sutāmī ( スターミー ) ( 0121 )
+Types: Water / Psychic
+Evolves From: Staryu (#0120)
+Evolves Into: —
+Notes: Starmie has a second star on its back, which is semi-attached and able to
+spin around independently of the front star. Starmie has a red jewel core, which
+resembles a cut precious stone and seems to shine with the seven colors of the
+rainbow when looked at from different angles, but usually shows up red more than
+any other color. It can also emit electrical waves from its core powerful enough
+to reach the furthest parts of the universe.
+Name: Mr. Mime Bariyādo ( バリヤード ) ( 0122 )
+Types: Psychic / Fairy [ nb 3 ]
+Evolves From: Mime Jr. (#0439)
+Evolves Into: — [ nb 7 ]
+Notes: Despite its name, there are female Mr. Mime. Its a skilled mime that
+loves to pantomime. It can create barriers by vibrating the air with its
+fingertips. If it is interrupted or its audience is unimpressed, it will slap
+them with its broad hands. It has an Ice/Psychic-type Galarian form .
+Name: Scyther Sutoraiku ( ストライク ) ( 0123 )
+Types: Bug / Flying
+Evolves From: —
+Evolves Into: Scizor (#0212) Kleavor (#0901)
+Notes: IGN and GamesRadar have praised Scyther's "cool" design. [ 72 ] [ 73 ] [
+74 ] With its ninja-like movements, Scyther can create afterimages of itself. It
+can slice thick logs with a single stroke. On rare occasions, it flies with its
+wings. It is proud of its speed. While young, they live together deep in the
+mountains, training themselves in fighting with their scythes and moving at high
+speeds.
+Name: Jynx Rūjura ( ルージュラ ) ( 0124 )
+Types: Ice / Psychic
+Evolves From: Smoochum (#0238)
+Evolves Into: —
+Notes: Jynx has spawned controversy due to aspects of its design being similar
+to blackface , leading Game Freak to change the color of its skin from black to
+purple. [ 75 ] [ 76 ] [ 77 ] [ 78 ] [ 79 ] When Pokémon Yellow was rereleased on
+the Nintendo 3DS Virtual Console , the in-game sprite of Jynx was edited to
+reflect this change. [ 79 ] Jynx's appearance is a purple humanoid with blond
+hair and a dress. It can put opponents to sleep by kissing them. Jynx can
+communicate with what appears to be a human-like language, though it has yet to
+be deciphered, so they usually opt to communicate with dance-like movement
+instead.
+Name: Electabuzz Erebū ( エレブー ) ( 0125 )
+Types: Electric
+Evolves From: Elekid (#0239)
+Evolves Into: Electivire (#0466)
+Notes: Groups of Electabuzz gather near power plants or places likely to be
+struck by thunder to feast on electricity. For this reason, they are often
+placed in houses as lightning rods. Power plants employ the use of Ground-type
+Pokémon to prevent Electabuzz from eating their energy and causing blackouts,
+though they are usually the fault of the companies running them. In the dark, it
+glows a whitish-blue color.
+Name: Magmar Būbā ( ブーバー ) ( 0126 )
+Types: Fire
+Evolves From: Magby (#0240)
+Evolves Into: Magmortar (#0467)
+Notes: While Magmar was voted the eighth best fire-type Pokémon by the Official
+Nintendo Magazine readers, [ 80 ] GamesRadar had criticized its design multiple
+times, noting that its forehead resembles a butt. [ 81 ] [ 82 ] Magmar are found
+in and around active volcanoes. Its body temperature is 2,200 °F. It dislikes
+cold places, so it blows flames to make the environment suitable for itself. Its
+appearance is often obscured by the flames that cover it. It can heal and rest
+itself by dipping its body into lava. In battle, Magmar blows out flames from
+all over its body to intimidate its opponent. When it breathes, its temperature
+rises, and when it sneezes, flames shoot out. Magmar dispatches its prey with
+fire, but may accidentally burn said prey to a charred crisp.
+Name: Pinsir Kairosu ( カイロス ) ( 0127 )
+Types: Bug
+Evolves From: —
+Evolves Into: Mega Evolution
+Notes: It was originally supposed to have an evolution called "Plux" in
+generation II. Some speculated that this unused design was reworked into
+Heracross. [ 83 ] Pinsir can use its pincers to crush, toss, bludgeon, or tear
+anything up to twice its size. Captured prey is kept in place by the piercing
+thorns and sheer strength of Pinsir's horns, and will not be released until they
+are torn in half. If it cannot be torn in half, it tosses it around. In addition
+to hunting prey, it also tends to enjoy tree sap. Pinsir live in temperate
+forests or jungles, and burrow their way underground or inside trees to avoid
+the cold. In Alola, it has a rivalry with Vikavolt, yet gets along with
+Heracross. In other regions, however, it competes with Heracross for food.
+Pinsir are known to judge each other based on their pincers, which also
+determine its popularity with the opposite gender based on how thick it looks.
+It gained a Mega Evolution in generation VI.
+Name: Magikarp Koikingu ( コイキング ) ( 0129 )
+Types: Water
+Evolves From: —
+Evolves Into: Gyarados (#0130)
+Notes: Magikarp is mostly useless in the games, until it evolves into Gyarados.
+Magikarp is based on the common carp . [ 70 ] At level 15, Magikarp learns
+Tackle. Until then, it only knows Splash and cannot be taught any other moves.
+In the distant past, it was somewhat stronger than the descendants that exist
+today. Despite its weakness, it is actually a hardy and fertile Pokémon that can
+survive in any body of water. Its swimming muscles are weak, so it gets easily
+washed away by currents, so places where water pools like seas, lakes, rivers,
+and shallow puddles will have many Magikarp stuck in them. It may jump on rare
+occasions, but never more than seven feet, making it easy for predators like
+Pidgeotto to catch it mid-jump. In rare occasions, a Magikarp living for many
+years can leap up a mountain.
+Name: Gyarados Gyaradosu ( ギャラドス ) ( 0130 )
+Types: Water / Flying
+Evolves From: Magikarp (#0129)
+Evolves Into: Mega Evolution
+Notes: When Magikarp evolves into Gyarados, its brain cells undergo a structural
+transformation, said to be the cause of its violent nature. Throughout history,
+it would appear and burn down cities, villages, and towns in rampages lasting
+around a month. There are some regions where it is called "the deity of
+destruction". Despite its Flying type, Gyarados cannot actually fly. It gained a
+Mega Evolution in generation VI.
+Name: Lapras Rapurasu ( ラプラス ) ( 0131 )
+Types: Water / Ice
+Evolves From: —
+Evolves Into: Gigantamax
+Notes: Lapras have gentle hearts. Poachers drove Lapras to the point of nearextinction,
+though recent protection regulations have instead made it an
+overabundant species. It loves transporting people on its back, and can actually
+understand human speech thanks to its high intelligence. Lapras will sing with
+other Lapras as a form of communication, or by itself when happy. Lapras is
+based on the Loch Ness Monster and the plesiosaur, and in early versions of Red
+and Blue was named "Ness". [ 84 ] It gained a Gigantamax form in generation
+VIII. Many regions in Japan have utilized Lapras' image to encourage tourism. [
+85 ] [ 86 ] [ 87 ] Lapras has been well received by critics, and has appeared on
+several lists of the best Pokémon of all time. [ 88 ] [ 89 ] [ 90 ]
+Name: Eevee Ībui ( イーブイ ) ( 0133 )
+Types: Normal
+Evolves From: —
+Evolves Into: Multiple [ nb 8 ] Gigantamax
+Notes: Eevee is often considered among the "cutest" Pokémon in the franchise. [
+94 ] [ 95 ] [ 96 ] [ 97 ] Due to this, Eevee is featured on various Pokémon
+-related merchandise. [ 98 ] [ 99 ] [ 100 ] It is the mascot of Pokémon: Let's
+Go, Eevee ! Eevee has exclusive evolution styles, where each evolution requires
+special requirements to occur, resulting in 8 different Pokémon. Eevee and its
+evolutions are sometimes referred to as "Eeveelutions". Eevee is mostly found in
+highly populated areas like cities and towns. Its unstable genes allow it to
+adapt to most habitats, and even to its trainer, to the point of eventually
+adopting a face similar to theirs. In generation VIII, it gained a Gigantamax
+form.
+Name: Vaporeon Shawāzu ( シャワーズ ) ( 0134 )
+Types: Water
+Evolves From: Eevee (#0133)
+Evolves Into: —
+Notes: Its genes and DNA are nearly identical to water, so it can melt away into
+it to hide from foes or prey. If its fins begin to mutate, it means rain is
+coming in a couple of hours. It has the ability to freely control water. It
+evolves from Eevee using a Water Stone. [ 101 ] Vaporeon became the ambassador
+for Water Day in Japan in 2023. [ 102 ] A popular internet copypasta , stating
+that Vaporeon was the most sexually compatible with humans out of all Pokémon
+species, became a meme among the Pokémon community. Originally posted on 4chan
+in 2018, its spread was attributed to its sudden, overly detailed, unprompted
+nature. Memes and fan art relating to the joke became prevalent within the
+community following its original posting. [ 103 ]
+Name: Jolteon Sandāsu ( サンダース ) ( 0135 )
+Types: Electric
+Evolves From: Eevee (#0133)
+Evolves Into: —
+Notes: It accumulates negative ions in the air to dish out 10,000 volt
+discharges. It is a moody Pokémon, easily becoming sad or angry, and its spiky
+fur can be launched to pierce enemies when it bristles. Jolteon's cells emit a
+low amount of electricity, which is amplified by its needle-like fur. If its
+hair stands on end, it is about to discharge. The crackling sound of electricity
+can be heard when it exhales.
+Name: Flareon Būsutā ( ブースター ) ( 0136 )
+Types: Fire
+Evolves From: Eevee (#0133)
+Evolves Into: —
+Notes: It stores fire over 1,650 °F inside its flame sac, then releases it at
+over 3,000 °F. Its fur is used to air out its body so it doesn't overheat. An
+omnivore, it roasts berries and prey before eating them.
+Name: Porygon Porigon ( ポリゴン ) ( 0137 )
+Types: Normal
+Evolves From: —
+Evolves Into: Porygon2 (#0233)
+Notes: Porygon has become notorious for being featured in an episode of the
+anime that caused widespread epileptic seizures in Japanese viewers. [ 104 ]
+Created in 1995, it is made entirely of programming code. It can enter
+cyberspace at will. People theorized it could go into outer space, though no
+Porygon has managed to achieve this so far. It has no heartbeat and does not
+need to eat, though it can eat if food is given. Because of this, people are
+eager to test it in any environment. Porygon is copy-protected so it cannot be
+duplicated. It was made with the best technology of 1995, so it has become
+outdated compared to Pokémon like Genesect and Type: Null . It is still useful
+in cyberspace , as it goes around making sure no suspicious data exists.
+Name: Omanyte Omunaito ( オムナイト ) ( 0138 )
+Types: Rock / Water
+Evolves From: —
+Evolves Into: Omastar (#0139)
+Notes: Omanyte is an ancient Pokémon that has been regenerated from Helix
+Fossils by people using modern science. If attacked by an enemy, it withdraws to
+its hard shell. It can use air stored inside its shell to rise or fall in water.
+Omanyte lived in ancient seas. Archeops and Carracosta have been known to prey
+on it.. The fossils Omanyte have been resurrected from are excavated from areas
+that were once large oceans. Because some Omanyte manage to escape after being
+restored or are released into the wild by people, it is gradually becoming an
+invasive species.
+Name: Omastar Omusutā ( オムスター ) ( 0139 )
+Types: Rock / Water
+Evolves From: Omanyte (#0138)
+Evolves Into: —
+Notes: Omastar is commonly referred to as "Lord Helix" within the community, as
+a reference to Twitch Plays Pokémon , where the Pokémon was seen as a good-luck
+charm. [ 105 ] Omastar uses its tentacles to capture its prey. It is believed
+that it went extinct because its shell grew too large and heavy, causing its
+movements to become too slow and clumsy. Once wrapped around its prey, it never
+lets go as it attacks by tearing into it with the sharp beaks that ring its
+mouth.
+Name: Kabuto Kabuto ( カブト ) ( 0140 )
+Types: Rock / Water
+Evolves From: —
+Evolves Into: Kabutops (#0141)
+Notes: Kabuto is an ancient Pokémon that has been regenerated from a Dome
+Fossil. However, in extremely rare cases, living examples have been discovered,
+being identical to their 300 million year-old counterparts. It is said to have
+inhabited ancient beaches. It protects itself using its hard shell and glowing
+red eyes.
+Name: Kabutops Kabutopusu ( カブトプス ) ( 0141 )
+Types: Rock / Water
+Evolves From: Kabuto (#0140)
+Evolves Into: —
+Notes: Kabutops were aggressive prehistoric Pokémon that inhabited warm seas.
+They swam underwater to hunt for prey in ancient times. It was apparently in the
+process of evolving from being a water-dweller to living on land, as evident
+from the beginnings of change in its gills and legs. The exact cause of its
+extincion is unknown. It swims at speeds of roughly 29 knots, closing in on prey
+and tearing at its foes with sickle-like forelegs, and drains the foe's body
+fluids entirely. The discarded body parts become food for other Pokémon. In the
+water, it tucks in its limbs to become more compact, then it wiggles its shell
+to swim faster.
+Name: Aerodactyl Putera ( プテラ ) ( 0142 )
+Types: Rock / Flying
+Evolves From: —
+Evolves Into: Mega Evolution
+Notes: A vicious prehistoric Pokémon, it goes for its opponents' throats with
+its serrated, saw-like fangs that shred the skin of even Steel-type Pokémon. It
+went extinct, but it was resurrected by taking its DNA from an Old Amber. It
+flies by spreading its wings and gliding though the skies, to the point of being
+referred to as their king. A widely accepted theory is that it went extinct due
+to a meteor impact. Despite its strength in the air, it is weak and slow on the
+ground. Even modern technology is still unable to make a truly perfect specimen.
+It is based on pterodactyls and dragons or wyverns. It gained a Mega Evolution
+in generation VI.
+Name: Snorlax Kabigon ( カビゴン ) ( 0143 )
+Types: Normal
+Evolves From: Munchlax (#0446)
+Evolves Into: Gigantamax
+Notes: It is carefree about everything, and it will allow children to play on
+its vast belly while it sleeps all day. After eating around 900 pounds of food,
+it goes to sleep for a while. It is a large, obese Pokémon with a bluish-green
+body and a white circle-shaped belly, white feet and face. It is said to be able
+to eat nearly anything with little to no side-effects, such as thorny plants or
+Muk's poison. Snorlax is commonly used as a roadblock within the games. It
+gained a Gigantamax form in generation VIII.
+Name: Dratini Miniryū ( ミニリュウ ) ( 0147 )
+Types: Dragon
+Evolves From: —
+Evolves Into: Dragonair (#0148)
+Notes: A Dratini continually molts and sloughs off its old skin almost daily. It
+does so because the life energy within its body steadily builds to reach
+uncontrollable levels. This allows Dratini to grow longer and longer, even
+reaching 6 feet in length. In some regions, boots made from the tanned cast-off
+skin of Dratini are a luxury item. The small lump on a Dratini's forehead is
+actually an underdeveloped horn. After a 10-hour struggle, a fisherman was
+finally able to pull one up and confirm its existence. Though still weak, it
+dwells near bodies of rapidly flowing water, such as the plunge pools of
+waterfalls to protect it while it repeatedly sheds its skin. It eats whatever
+food sinks down, and lives a quiet and happy life.
+Name: Dragonair Hakuryū ( ハクリュー ) ( 0148 )
+Types: Dragon
+Evolves From: Dratini (#0147)
+Evolves Into: Dragonite (#0149)
+Notes: Dragonair can grow the wings on its head to fly, but can also fly without
+them. It stores an enormous amount of energy inside its body, and can alter
+weather conditions in its vicinity by discharging energy from the crystals on
+its body. The lakes where Dragonair live are filled with offerings from people
+and are respected by farmers. Some say that seeing a Dragonair flying around at
+the start of the year is a sign that one will be healthy all year long.
+Name: Dragonite Kairyū ( カイリュー ) ( 0149 )
+Types: Dragon / Flying
+Evolves From: Dragonair (#0148)
+Evolves Into: —
+Notes: Capable of circling the globe in just sixteen hours and with the
+intelligence of a human, tales of this kindhearted Pokémon leading lost and
+foundering ships to the safety of land are commonplace. It is said that
+somewhere in the ocean lies an island where Dragonite gather. Its build lets it
+freely fly over raging seas without trouble to rescue drowning people. Observing
+this, a ship's captain dubbed it "the sea incarnate", and figureheads that
+resemble Dragonite now decorate the bows of many ships.
+Name: Mewtwo Myūtsū ( ミュウツー ) ( 0150 )
+Types: Psychic
+Evolves From: —
+Evolves Into: Two Mega Evolutions
+Notes: It is a playable character in Super Smash Bros. Melee , Super Smash Bros.
+for Nintendo 3DS / Wii U and Super Smash Bros. Ultimate . Mewtwo originated from
+the DNA of Mew, mutated by Dr. Fuji in a lab after years of gene splicing. Even
+though it has powerful psychic abilities, scientists failed to give it a
+compassionate heart, and it turned vicious as a result. It rests to conserve
+energy, so that it can unleash its full power in battle. In generation VI, it
+gained two Mega Evolutions; one adapted for physical attacks , and one adapted
+for special attacks .
