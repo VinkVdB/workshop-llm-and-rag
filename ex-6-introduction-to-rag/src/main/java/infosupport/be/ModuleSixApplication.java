@@ -33,10 +33,11 @@ public class ModuleSixApplication {
             EmbeddingModel embeddingModel,
             VectorStore vectorStore) {
         return args -> {
-            // Ingest the selected documents into the vector store
-            vectorStore.write(
-                    new TokenTextSplitter().transform(
-                            new TextReader(pokedex).read()));
+            // Ingest the selected documents into the vector store.
+            // You can also use a PDFReader for this, e.g. implementing a DocumentReader and using Apache PDFBox
+            var documents = new TokenTextSplitter().transform(
+                            new TextReader(pokedex).read());
+
 
 //            // You can also define a custom text splitter!
 //            CustomTextSplitter textSplitter = new CustomTextSplitter(200, "\\.\\s+"); // Splits by sentences, max 200 characters per chunk
@@ -44,10 +45,12 @@ public class ModuleSixApplication {
 //            // Ingest each chunk into the vector store
 //            chunks.forEach(chunk -> vectorStore.write(chunk));
 
-            vectorStore.similaritySearch("Cancelling Bookings").forEach(doc -> {
+            // Ingest the split document chunks into the vector store
+            vectorStore.write(documents);
+
+            vectorStore.similaritySearch("Pikachu").forEach(doc -> {
                 log.info("Similar Document: {}", doc.getContent());
             });
-
 
             // Start the command-line chat interface
             Scanner scanner = new Scanner(System.in);
