@@ -17,4 +17,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+<!--        Required for the local embedding model-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-transformers-spring-boot-starter</artifactId>-->
+<!--        </dependency>-->
+    </dependencies>
+
 </project>
