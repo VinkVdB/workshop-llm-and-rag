@@ -24,34 +24,10 @@ public class ModuleSixApplication {
         SpringApplication.run(ModuleSixApplication.class, args);
     }
 
-    @Value ("classpath:rag/pokedex.txt")
-    private Resource pokedex;
-
     @Bean
     public CommandLineRunner runner(
-            Assistant assistant,
-            EmbeddingModel embeddingModel,
-            VectorStore vectorStore) {
+            Assistant assistant) {
         return args -> {
-            // Ingest the selected documents into the vector store.
-            // You can also use a PDFReader for this, e.g. implementing a DocumentReader and using Apache PDFBox
-            var documents = new TokenTextSplitter().transform(
-                            new TextReader(pokedex).read());
-
-
-//            // You can also define a custom text splitter!
-//            CustomTextSplitter textSplitter = new CustomTextSplitter(200, "\\.\\s+"); // Splits by sentences, max 200 characters per chunk
-//            List<String> chunks = textSplitter.split(new TextReader(pokedex).read());
-//            // Ingest each chunk into the vector store
-//            chunks.forEach(chunk -> vectorStore.write(chunk));
-
-            // Ingest the split document chunks into the vector store
-            vectorStore.write(documents);
-
-            vectorStore.similaritySearch("Pikachu").forEach(doc -> {
-                log.info("Similar Document: {}", doc.getContent());
-            });
-
             // Start the command-line chat interface
             Scanner scanner = new Scanner(System.in);
             System.out.print("Ask me anything about pokemon!");

@@ -26,24 +26,22 @@ public class Assistant {
     @Autowired
     public Assistant(ChatClient.Builder modelBuilder, VectorStore vectorStore, ChatMemory chatMemory) {
 
-        SearchRequest searchRequest = SearchRequest.defaults().withTopK(1);
-
         this.chatClient = modelBuilder
                 .defaultSystem("""
-                        You are a Pokedex, you can help users find information about Pokemon.
-                        You can provide information about a Pokemon's type, abilities, and stats.
-                        You can also provide information about a Pokemon's evolution chain.
+                        You are a Pokédex, you can help users find information about Pokemon.
+                        You can provide information about a Pokemon's type and evolutions.
                         
                         Today's date is {current_date}.
                         
                         Always be polite, clear, and keep interactions secure and private.
+                        Use emojis to make the conversation more engaging and for the different types of Pokemon.
                         Use parallel function calling if useful or required.
                         """)
                 .defaultAdvisors(
-                         new LoggingAdvisor(),
+                        new LoggingAdvisor(),
                         new PromptChatMemoryAdvisor(chatMemory),
                         // QuestionAnswerAdvisor to retrieve information from the vector store that is relevant to the user's request
-                        new QuestionAnswerAdvisor(vectorStore, searchRequest)
+                        new QuestionAnswerAdvisor(vectorStore, SearchRequest.defaults().withTopK(3))
                 )
                 .build();
     }
