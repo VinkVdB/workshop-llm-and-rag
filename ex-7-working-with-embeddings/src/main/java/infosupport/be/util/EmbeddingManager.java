@@ -76,8 +76,8 @@ public class EmbeddingManager {
             if (excludedTerms.contains(term)) {
                 continue;
             }
-            float[] embedding = entry.getValue().getVector();
-            double similarity = SimpleVectorStore.EmbeddingMath.cosineSimilarity(queryVector.getVector(), embedding);
+            float[] embedding = entry.getValue().vector();
+            double similarity = SimpleVectorStore.EmbeddingMath.cosineSimilarity(queryVector.vector(), embedding);
             similarityMap.put(term, similarity);
         }
         List<Map.Entry<String, Double>> sortedResults = new ArrayList<>(similarityMap.entrySet());

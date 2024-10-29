@@ -1,11 +1,9 @@
 package infosupport.be.util;
 
-public class EmbeddingVector {
-    private final float[] vector;
+import lombok.Getter;
 
-    public EmbeddingVector(float[] vector) {
-        this.vector = vector;
-    }
+@Getter
+public record EmbeddingVector(float[] vector) {
 
     // Addition with another EmbeddingVector
     public EmbeddingVector plus(EmbeddingVector other) {
@@ -23,10 +21,5 @@ public class EmbeddingVector {
             result[i] = this.vector[i] - other.vector[i];
         }
         return new EmbeddingVector(result);
-    }
-
-    // Access to the raw float array
-    public float[] getVector() {
-        return vector;
     }
 }
