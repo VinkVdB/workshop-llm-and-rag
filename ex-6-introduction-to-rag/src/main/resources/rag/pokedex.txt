@@ -727,6 +727,14 @@ are warned to keep Magneton inside their Poké Balls. When it evolves, the
 Magnemite's brains link up, though they do not become three times smarter. When
 rain clouds form, they like to gather in high spots where lightning could
 strike. Sandy Shocks appears to be an ancient relative of it.
+Name: Farfetch'd Kamonegi ( カモネギ ) ( 0083 )
+Types: Normal / Flying
+Evolves From: —
+Evolves Into: Sirfetch'd (#0878)
+Notes: It is based on the Japanese saying "a duck comes bearing green onions",
+which means something surprising but convenient. It is known for its leek, which
+it uses as a weapon. It is a popular Pokémon in the Galar region, where it is
+considered a symbol of the region. It has a Fighting-type Galarian form.
 Name: Doduo Dōdō ( ドードー ) ( 0084 )
 Types: Normal / Flying
 Evolves From: —
@@ -1179,6 +1187,13 @@ Heracross. In other regions, however, it competes with Heracross for food.
 Pinsir are known to judge each other based on their pincers, which also
 determine its popularity with the opposite gender based on how thick it looks.
 It gained a Mega Evolution in generation VI.
+Name: Tauros Kentauros ( ケンタロス ) ( 0128 )
+Types: Normal
+Evolves From: —
+Evolves Into: —
+Notes: Tauros is a wild bull Pokémon that is known for its violent nature. It
+will charge at anything that moves, and it is known to be able to knock down
+large trees.
 Name: Magikarp Koikingu ( コイキング ) ( 0129 )
 Types: Water
 Evolves From: —
@@ -1218,6 +1233,16 @@ and Blue was named "Ness". [ 84 ] It gained a Gigantamax form in generation
 VIII. Many regions in Japan have utilized Lapras' image to encourage tourism. [
 85 ] [ 86 ] [ 87 ] Lapras has been well received by critics, and has appeared on
 several lists of the best Pokémon of all time. [ 88 ] [ 89 ] [ 90 ]
+Name: Ditto Metamon ( メタモン ) ( 0132 )
+Types: Normal
+Evolves From: —
+Evolves Into: —
+Notes: Ditto can transform into anything, but its transformation will not be
+perfect if it is not familiar with the target. It can transform into a rock, but
+will still bounce if thrown. Ditto can also transform into a human, but will
+still have its beady eyes. It can transform into a human, but will still have
+its beady eyes. Helpful in breeding, Ditto can breed with any Pokémon that is
+not a Legendary or Mythical Pokémon.
 Name: Eevee Ībui ( イーブイ ) ( 0133 )
 Types: Normal
 Evolves From: —
@@ -1346,6 +1371,26 @@ body and a white circle-shaped belly, white feet and face. It is said to be able
 to eat nearly anything with little to no side-effects, such as thorny plants or
 Muk's poison. Snorlax is commonly used as a roadblock within the games. It
 gained a Gigantamax form in generation VIII.
+Name: Articuno Furiizā ( フリーザー ) ( 0144 )
+Types: Ice / Flying
+Evolves From: —
+Evolves Into: —
+Notes: Articuno is a legendary bird Pokémon that can control ice. It is said to
+appear to doomed people who are lost in icy mountains. It is said to be the
+guardian of the skies.
+Name: Zapdos Sandā ( サンダー ) ( 0145 )
+Types: Electric / Flying
+Evolves From: —
+Evolves Into: —
+Notes: Zapdos is a legendary bird Pokémon that can control electricity. It is
+said to appear from the sky when a thunderstorm is approaching. It is said to be
+the guardian of the skies.
+Name: Moltres Faiyā ( ファイヤー ) ( 0146 )
+Types: Fire / Flying
+Evolves From: —
+Evolves Into: —
+Notes: Moltres is a legendary bird Pokémon that can control fire. It is said to
+appear from the sky when a volcano erupts.
 Name: Dratini Miniryū ( ミニリュウ ) ( 0147 )
 Types: Dragon
 Evolves From: —
@@ -1393,3 +1438,10 @@ compassionate heart, and it turned vicious as a result. It rests to conserve
 energy, so that it can unleash its full power in battle. In generation VI, it
 gained two Mega Evolutions; one adapted for physical attacks , and one adapted
 for special attacks .
+Name: Mew Myū ( ミュウ ) ( 0151 )
+Types: Psychic
+Evolves From: —
+Evolves Into: —
+Notes: Mew is a mythical Pokémon that is said to contain the genetic codes of
+all Pokémon. It is said to be the ancestor of all Pokémon. Mew is said to be
+capable of learning every move in existence, and can make itself invisible at will.
