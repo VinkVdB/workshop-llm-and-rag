@@ -27,6 +27,7 @@ public class ModuleNineApplication {
             log.info("Running image model: {}", prompt);
             ImageResponse response = imageClient.call(
                     new ImagePrompt(prompt,
+                            // If red, don't forget to flip dependencies to openai, instead of azure
                             OpenAiImageOptions.builder()
                                     .withQuality("hd")
                                     .withN(1)
