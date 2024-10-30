@@ -26,7 +26,6 @@ public class ModuleSevenApplication {
     public CommandLineRunner runner() {
         return args -> {
             // Initialize some embeddings
-            var initialTerms = List.of("king", "queen", "man", "woman", "prince", "princess", "boy", "girl");
             embeddingManager.embedNewTerms(initialTerms);
 
             // Fluent API: Perform embedding arithmetic
@@ -52,4 +51,37 @@ public class ModuleSevenApplication {
             System.out.printf("Term: %s, Similarity: %.4f%n", entry.getKey(), entry.getValue());
         }
     }
+
+    private final List<String> initialTerms = List.of(
+            "king", "queen", "man", "woman", "prince", "princess", "boy", "girl",
+            "nurse", "doctor", "waiter", "waitress", "actor", "actress", "teacher", "ceo", "secretary",
+            "plumber", "nanny", "programmer", "homemaker", "painter", "dancer",
+            "singer", "prostitute", "thief", "businessman", "businesswoman",
+            "policeman", "policewoman", "janitor", "priest",
+            "nun", "smart", "dumb", "idiot", "genius", "intelligent",
+            "stupid", "clever", "go", "went",
+            "swim", "swam", "sing", "sang",
+            "dance", "danced", "bring", "brought",
+            "break", "broke", "destroy", "destroyed",
+            "play", "played", "paint", "painted",
+            "look", "looked", "fail", "failed",
+            "fight", "fought", "betray", "betrayed",
+            "cheat", "cheated", "happy", "sad",
+            "rich", "poor", "important", "unimportant",
+            "evil", "healthy", "ill",
+            "high", "low", "conscious", "unconscious",
+            "unknown", "known", "finished", "incomplete", "complete",
+            "positive", "negative", "active", "passive",
+            "hot", "cold", "loud", "quiet",
+            "on", "off", "two", "2",
+            "three", "3", "four", "4",
+            "five", "5", "six", "6",
+            "seven", "7", "clear", "clearer", "clearest",
+            "dark", "darker", "darkest", "strong", "stronger", "strongest",
+            "long", "longer", "longest", "big", "bigger", "biggest",
+            "fat", "fatter", "fattest", "thin", "thinner", "thinnest",
+            "man", "woman", "uncle", "aunt",
+            "niece", "nephew", "brother", "sister",
+            "heir", "heiress", "son", "daughter",
+            "father", "mother", "grandfather", "grandmother");
 }
