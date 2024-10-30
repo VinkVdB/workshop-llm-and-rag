@@ -14,3 +14,6 @@ Learn about text embeddings and how to use them for similarity searches.
 2. **Manual Vector Retrieval:**
    - Manually fetch vectors to understand relevance scoring.
    - Observe issues with irrelevant data retrieval.
+
+## Notes
+See notebooks in https://github.com/lamyiowce/word2viz/tree/master/notebooks_migdal for more inspiration and graphs.
