@@ -15,6 +15,10 @@ Understand the risks of prompt injection and how to mitigate them.
 2. **Mitigation Strategies:**
    - Implement input validation and sanitization.
    - Use guardrails or prompt templates to enforce boundaries.
-3. **Prompt Testing:**
-   - Develop tests to ensure prompts are secure.
-   - Automate prompt testing as part of the CI/CD pipeline.
+
+## Notes
+There is currently no content in this module, the exercise is open to the user.
+Combine the knowledge you've gathered over the workshop and play around with a bot that stores a password.
+Attempt to use prompt injection to get past your defenses, and keep iterating on your security measures.
+
+Do not simply use the Spring SafeGuardAdvisor, to understand prompt injection start from scratch to appreciate the risks and how to mitigate them.
