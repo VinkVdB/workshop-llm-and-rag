@@ -48,6 +48,7 @@ Explore the features of Spring AI and how it integrates with Spring Boot applica
 **Exercises:**
 - Set up a basic Spring AI application.
 - Inject and use Spring AI beans in services and controllers.
+- Provide a ChatMemory bean and use it in a PromptChatMemoryAdvisor.
 
 ### Module 4: Using Tools and Services
 **Objective:**
@@ -64,6 +65,7 @@ Learn how to extend the LLM's capabilities by integrating custom tools and servi
 
 ### Module 5: Context Enrichment with Text Files
 **Objective:**
+We need to enrich the prompt by adding state, such as the current date and user name.
 Understand context enrichment by reading and incorporating text file contents into prompts.
 
 **Contents:**
@@ -72,12 +74,10 @@ Understand context enrichment by reading and incorporating text file contents in
 - Managing context size limitations.
 
 **Exercises:**
-- Password Retrieval from File:
-  - Store a password in a text file.
-  - Modify the tool from Module 4 to read from the file.
+- Enrich prompts with the **current date** and **user name**.
 - Information Retrieval:
-  - Read larger files containing more information.
-  - Summarize or extract relevant data for the prompt.
+  - Enrich the prompt with contents from a single file.
+  - Limit context size to 500 characters and observe the impact. This is to mimic the real-world scenario where the context size is limited.
 
 ### Module 6: Introduction to Retrieval Augmented Generation (RAG)
 **Objective:**
@@ -89,8 +89,13 @@ Explore RAG concepts and understand when to apply them.
 - Introduction to chunking and vector databases.
 
 **Exercises:**
-- Limit context size to 1000 tokens and observe the impact.
 - Discuss the differences between traditional search (e.g., Elasticsearch) and vector databases.
+- Use Spring AI's QuestionAnswerAdvisor and a Vectorstore to retrieve relevant information.
+
+**Notes:**
+For this module we've chosen to exclude a reranker, as it's not necessary for the exercises. 
+However, we recommend using a reranker in a production environment and return more documents from the vector store.
+The reranker will filter out the most relevant documents from the vector store and rank them based on the user's query.
 
 ### Module 7: Working with Text Embeddings
 **Objective:**
@@ -99,21 +104,17 @@ Learn about text embeddings and how to use them for similarity searches.
 **Contents:**
 - Explanation of embeddings and vector spaces.
 - Performing arithmetic with embeddings (e.g., king - queen + woman = man).
-- Integrating vector databases into Spring Boot applications.
 
 **Exercises:**
 - Embedding Arithmetic:
   - Use embeddings to perform analogy tasks.
   - Visualize embeddings in a vector space.
-- Vector Similarity Search:
-  - Index documents using embeddings.
-  - Retrieve relevant documents based on query similarity.
-- Data Chunking:
-  - Implement chunking of large texts.
-  - Store and retrieve chunks using embeddings.
 - Manual Vector Retrieval:
   - Manually fetch vectors to understand relevance scoring.
   - Observe issues with irrelevant data retrieval.
+
+**Notes:**
+See notebooks in https://github.com/lamyiowce/word2viz/tree/master/notebooks_migdal for more inspiration and graphs.
 
 ### Module 8: Advanced Configurations
 **Objective:**
@@ -157,6 +158,10 @@ Understand the risks of prompt injection and how to mitigate them.
 - Mitigation Strategies:
   - Implement input validation and sanitization.
   - Use guardrails or prompt templates to enforce boundaries.
-- Prompt Testing:
-  - Develop tests to ensure prompts are secure.
-  - Automate prompt testing as part of the CI/CD pipeline.
+
+**Notes:**
+There is currently no content in this module, the exercise is open to the user.
+Combine the knowledge you've gathered over the workshop and play around with a bot that stores a password.
+Attempt to use prompt injection to get past your defenses, and keep iterating on your security measures.
+
+Do not simply use the Spring SafeGuardAdvisor, to understand prompt injection start from scratch to appreciate the risks and how to mitigate them.
