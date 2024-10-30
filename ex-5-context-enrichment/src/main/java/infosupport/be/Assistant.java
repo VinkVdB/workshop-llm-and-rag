@@ -57,6 +57,7 @@ public class Assistant {
                     .system(s -> {
                         s.param("current_date", LocalDate.now().toString());
                         s.param("user_name", "John Doe");
+                        // Truncated to showcase the effects of context limit
                         s.param("jokes", truncatedJokes);
                     })
                     .user(userMessageContent)

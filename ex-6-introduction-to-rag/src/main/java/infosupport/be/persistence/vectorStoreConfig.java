@@ -32,9 +32,9 @@ public class vectorStoreConfig {
         could for example split a recipe halfway. Needing to rely on the embeddings to find the missing half. */
         var defaultTextSplitter = new TokenTextSplitter();
         /* For this reason I made a custom splitter */
-        var pokemonTextSplitter = new CustomTextSplitter( "Name: ");
-        // var recipesTextSplitter = new CustomTextSplitter( "(02) 8188 8722 | HelloFresh.com.au");
-        // var bestiaryTextSplitter = new CustomTextSplitter( "====");
+        var pokemonTextSplitter = new CustomTextSplitter("Name: ");
+        // var recipesTextSplitter = new CustomTextSplitter("(02) 8188 8722 | HelloFresh.com.au");
+        // var bestiaryTextSplitter = new CustomTextSplitter("====");
 
         log.info("Reading documents from resources");
         var documents = new TextReader(pokedex).read();

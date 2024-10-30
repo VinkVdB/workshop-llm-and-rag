@@ -56,11 +56,7 @@ public class ToolConfig {
         return request -> {
             try {
                 boolean isValid = passwordService.verifyPassword(request.username(), request.password());
-                if (isValid) {
-                    return "Password is correct.";
-                } else {
-                    return "Password is incorrect.";
-                }
+                return isValid ? "Password is correct." : "Password is incorrect.";
             } catch (Exception e) {
                 log.warn("VerifyPassword error: {}", e.getMessage());
                 return "An error occurred while verifying the password.";

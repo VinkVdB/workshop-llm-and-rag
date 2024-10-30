@@ -128,7 +128,7 @@ public class ModuleEightApplication {
 
             // High temperature (more creative)
             AzureOpenAiChatOptions highTempOptions = options.copy();
-            highTempOptions.setTemperature(1.0);
+            highTempOptions.setTemperature(1.0); // Try 2.0 ;)
 
             ChatClient clientHighTemp = createClient(builder, highTempOptions);
 
