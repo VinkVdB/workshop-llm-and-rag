@@ -20,6 +20,8 @@ public class vectorStoreConfig {
     private Resource pokedex;
     @Value("classpath:rag/recipes.txt")
     private Resource recipes;
+    @Value("classpath:rag/dnd_bestiary.txt")
+    private Resource bestiary;
 
     @Bean
     public VectorStore vectorStore(EmbeddingModel embeddingModel) {
@@ -32,16 +34,19 @@ public class vectorStoreConfig {
         /* For this reason I made a custom splitter */
         var pokemonTextSplitter = new CustomTextSplitter( "Name: ");
         // var recipesTextSplitter = new CustomTextSplitter( "(02) 8188 8722 | HelloFresh.com.au");
+        // var bestiaryTextSplitter = new CustomTextSplitter( "====");
 
         log.info("Reading documents from resources");
         var documents = new TextReader(pokedex).read();
         // var documents = new TextReader(recipes).read();
+        // var documents = new TextReader(bestiary).read();
         /* You could also use a PDFReader for this, e.g. implementing a DocumentReader and using Apache PDFBox */
 
         log.info("Splitting documents");
         // var chunks = new TokenTextSplitter().transform(documents);
         var chunks = pokemonTextSplitter.transform(documents);
         // var chunks = recipesTextSplitter.transform(documents);
+        // var chunks = bestiaryTextSplitter.transform(documents);
 
         // Ingest the split document chunks into the vector store
         log.info("Ingesting {} chunks into the vector store", chunks.size());
