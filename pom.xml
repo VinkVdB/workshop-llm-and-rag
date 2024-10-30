@@ -52,6 +52,7 @@
 			<version>1.0.0-M3</version>
 		</dependency>
 
+<!--		Enable this dependency for the image generation section, or if the azure key were to fail -->
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.ai</groupId>-->
 <!--			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
