@@ -1,8 +1,5 @@
 package infosupport.be.util;
 
-import lombok.Getter;
-
-@Getter
 public record EmbeddingVector(float[] vector) {
 
     // Addition with another EmbeddingVector
