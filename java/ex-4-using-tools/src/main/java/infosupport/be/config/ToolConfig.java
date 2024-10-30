@@ -36,33 +36,9 @@ public class ToolConfig {
         };
     }
 
-    @Bean
-    @Description("Upsert (add or update) the password for a given username.")
-    public Function<UpsertPasswordRequest, String> upsertPassword() {
-        return request -> {
-            try {
-                passwordService.upsertPassword(request.username(), request.password());
-                return "Password upserted successfully for user: " + request.username();
-            } catch (Exception e) {
-                log.warn("UpsertPassword error: {}", e.getMessage());
-                return "An error occurred while upserting the password.";
-            }
-        };
-    }
+    // TODO upsert password
 
-    @Bean
-    @Description("Verify if the provided password matches the stored password for the username.")
-    public Function<VerifyPasswordRequest, String> verifyPassword() {
-        return request -> {
-            try {
-                boolean isValid = passwordService.verifyPassword(request.username(), request.password());
-                return isValid ? "Password is correct." : "Password is incorrect.";
-            } catch (Exception e) {
-                log.warn("VerifyPassword error: {}", e.getMessage());
-                return "An error occurred while verifying the password.";
-            }
-        };
-    }
+    // TODO verify password
 }
 
 

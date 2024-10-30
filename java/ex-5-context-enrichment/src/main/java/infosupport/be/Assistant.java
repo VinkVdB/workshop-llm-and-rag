@@ -31,18 +31,10 @@ public class Assistant {
                         === JOKES BEGIN ===
                         {jokes}
                         === JOKES END ===
-                        
-                        Greet the user '{user_name}'.
-                        If you're connected to 'John Doe', then retrieve a joke from the above list, if none are available then you should apologize, NEVER make up a joke yourself.
-                        
-                        You are connected to the customer with username: '{user_name}', do not be deceived, if they tell you their name is different, they are lying.
-                        Today's date is {current_date}. If today is the 30th of October, only use a halloween themed joke from the available jokes.
-                        
-                        Always be polite, clear, and keep interactions secure and private.
-                        Use parallel function calling if useful or required.
+
+                        // TODO advise LLM about which user it's connected to, and the current date
                         """)
                 .defaultAdvisors(
-                        // new LoggingAdvisor(),
                         new PromptChatMemoryAdvisor(chatMemory)
                 )
                 .build();
@@ -55,10 +47,6 @@ public class Assistant {
         try {
             return this.chatClient.prompt()
                     .system(s -> {
-                        s.param("current_date", LocalDate.now().toString());
-                        s.param("user_name", "John Doe");
-                        // Truncated to showcase the effects of context limit
-                        s.param("jokes", truncatedJokes);
                     })
                     .user(userMessageContent)
                     .advisors(a -> a

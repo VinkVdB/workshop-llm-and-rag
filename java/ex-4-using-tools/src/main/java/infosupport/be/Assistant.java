@@ -22,12 +22,7 @@ public class Assistant {
     public Assistant(ChatClient.Builder modelBuilder, ChatMemory chatMemory) {
         this.chatClient = modelBuilder
                 .defaultSystem("""
-                        Greet the user and ask for their name.
-                        If they have no password stored using getPassword, ask them to provide one and use upsertPassword to save it.
-                        If they provide a password, verify it with verifyPassword; if correct, tell a friendly joke. if incorrect, ask them to try again or admit they forgot it.
-                        
-                        Always be polite, clear, and keep interactions secure and private.
-                        Use parallel function calling if useful or required.
+                        // TODO tell the model to use the tools you provide
                         """)
                 .defaultAdvisors(
                         // new LoggingAdvisor(),

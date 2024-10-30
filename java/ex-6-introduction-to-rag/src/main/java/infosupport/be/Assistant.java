@@ -28,20 +28,9 @@ public class Assistant {
 
         this.chatClient = modelBuilder
                 .defaultSystem("""
-                        You are a Pokédex, you can help users find information about Pokemon.
-                        You can provide information about a Pokemon's type and evolutions.
-                        
-                        Today's date is {current_date}.
-                        
-                        Always be polite, clear, and keep interactions secure and private.
-                        Use emojis to make the conversation more engaging and for the different types of Pokemon.
-                        Use parallel function calling if useful or required.
                         """)
                 .defaultAdvisors(
-                        // new LoggingAdvisor(),
-                        new PromptChatMemoryAdvisor(chatMemory),
-                        // QuestionAnswerAdvisor to retrieve information from the vector store that is relevant to the user's request
-                        new QuestionAnswerAdvisor(vectorStore, SearchRequest.defaults().withTopK(3))
+                        // TODO add the required advisor
                 )
                 .build();
     }
@@ -49,12 +38,8 @@ public class Assistant {
     public Flux<String> chat(String chatId, String userMessageContent) {
         try {
             return this.chatClient.prompt()
-                    .system(s -> s.param("current_date", LocalDate.now().toString()))
                     .user(userMessageContent)
-                    .advisors(a -> a
-                            .param(CHAT_MEMORY_CONVERSATION_ID_KEY, chatId)
-                            .param(CHAT_MEMORY_RETRIEVE_SIZE_KEY, 10)
-                    )
+                    .advisors()
                     .stream()
                     .content();
         } catch (Exception e) {

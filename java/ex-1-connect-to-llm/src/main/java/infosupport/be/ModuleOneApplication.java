@@ -21,24 +21,22 @@ public class ModuleOneApplication {
     /**
      * This method waits for the LLM to finish processing the chat and then prints the response.
      */
+    // TODO inject the chat client builder
     @Bean
-    public CommandLineRunner runner(ChatClient.Builder builder) {
+    public CommandLineRunner runner() {
         return args -> {
-            ChatClient chatClient = builder.build();
+            // ChatClient chatClient = builder.build();
 
             try {
-                String response = chatClient
-                        .prompt("Tell me a joke")
-                        .call()
-                        .content();
-
-                System.out.println(response);
+                // TODO run a prompt! And print the response!
             } catch (Exception e) {
                 log.error("An error occurred while processing the chat. Please try again.", e);
             }
         };
     }
 
+
+    // TODO have a peak down here, or at the solution!
     /**
      * This method streams the LLM's response as it is being processed.
      */

@@ -40,7 +40,9 @@ public class ModuleTwoApplication {
     private void zeroShotPrompt(ChatClient chatClient) {
         log.info("=== Zero-shot Prompting ===");
         try {
-            String prompt = "Translate the following Dutch sentence to French: 'De befaamde Geraardsbergse mattentaart is genoemd naar het voornaamste ingrediënt, de 'matten' -oftewel rauwe, gestremde en uitgelekte koemelk.'";
+            String prompt = """
+                    //TODO Translate something from english to french
+                    """;
             String response = chatClient
                     .prompt(prompt)
                     .call()
@@ -56,12 +58,7 @@ public class ModuleTwoApplication {
         log.info("=== One-shot Prompting ===");
         try {
             String prompt = """
-                    Translate the following Dutch sentences to French:
-                    Dutch: 'Ik hou van mattentaarten.'
-                    French: 'J'aime les tartes au maton.'
-
-                    Dutch: 'De trein vertrekt om vijf uur.'
-                    French:
+                    // TODO also translate, but add a single example sentence
                     """;
 
             String response = chatClient
@@ -79,12 +76,7 @@ public class ModuleTwoApplication {
         log.info("=== Few-shot Prompting ===");
         try {
             String prompt = """
-                    Convert the given amount from Euros to US Dollars using the following examples:
-                    €10 -> $11.00
-                    €20 -> $22.00
-                    Do not offer your thought process, just the result!
-                    
-                    €50 ->
+                    // TODO convert €50 to USD, add multiple examples using 1.1USD=1EUR
                     """;
 
             String response = chatClient
@@ -102,9 +94,10 @@ public class ModuleTwoApplication {
         log.info("=== Chain-of-thought Prompting ===");
         try {
             String prompt = """
-                    Antwerp is 50 km north of Brussels. Ghent is 60 km west of Brussels.
-                    Assuming there's a direct road from Antwerp to Ghent, how many kilometers will you travel in total?
-                    Please explain your reasoning step by step.
+                    // TODO ask the model to calculate the distance between Antwerp and Ghent,
+                    // when the distance between Antwerp and Brussels is 50km
+                    // and the distance between Brussels and Ghent is 60km.
+                    // Demand the model to explain its reasoning
                     """;
 
             String response = chatClient
@@ -126,9 +119,7 @@ public class ModuleTwoApplication {
             // Mutate will make a new builder based on the settings from an existing client.
             var clonedClient = chatClient.mutate()
                     .defaultSystem("""
-                    You are an expert travel assistant specialized in Belgian tourism and culinary delights.
-                    Respond in a friendly, helpful, and informative manner.
-                    Always end the conversation with a friendly goodbye message adressing them in regional slang.
+                    // TODO try to impersonate the LLM as a travel assistant
                     """)
                     .build();
 

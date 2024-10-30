@@ -17,7 +17,8 @@ public class ModuleThreeApplication {
     }
 
     @Bean
-    public CommandLineRunner runner(Assistant assistant) {
+    // TODO add assistant bean!
+    public CommandLineRunner runner() {
         return args -> {
             // Start the command-line chat interface
             Scanner scanner = new Scanner(System.in);
@@ -28,16 +29,7 @@ public class ModuleThreeApplication {
                 System.out.print("\n> ");
                 String userMessage = scanner.nextLine();
 
-                assistant.chat("default-chat-id", userMessage)
-                        // Delay each message to simulate chat
-                        .delayElements(Duration.ofMillis(50))
-                        .doOnNext(System.out::print)
-                        .onErrorResume(e -> {
-                            // Return empty to prevent blocking
-                            return Flux.empty();
-                        })
-                        // Block until we get the full response
-                        .blockLast();
+                // TODO talk to assistant
             }
         };
     }

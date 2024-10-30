@@ -23,9 +23,5 @@ public class ChatMemoryConfig {
      * Alternatively you can define your own chat memory implementation. Which could use a db.
      * To demonstrate this, I've used ChatGPT to generate a single-file based chat memory.
      */
-    @Bean
-    @ConditionalOnProperty(name = "chat.memory.type", havingValue = "file")
-    public ChatMemory fileChatMemory(@Value("${chat.memory.file.path:chat_history.txt}") String filePath) {
-        return new FileChatMemory(filePath);
-    }
+    // TODO implement the FileChatMemory bean
 }

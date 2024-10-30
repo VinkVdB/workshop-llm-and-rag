@@ -30,7 +30,7 @@ public class ModuleSixApplication {
         return args -> {
             // Start the command-line chat interface
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Ask me anything about pokemon!");
+            System.out.print("Ask me anything about TOPIC!");
 
             // Start the chat loop
             while (true) {

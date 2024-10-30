@@ -32,21 +32,15 @@ public class vectorStoreConfig {
         could for example split a recipe halfway. Needing to rely on the embeddings to find the missing half. */
         var defaultTextSplitter = new TokenTextSplitter();
         /* For this reason I made a custom splitter */
-        var pokemonTextSplitter = new CustomTextSplitter("Name: ");
-        // var recipesTextSplitter = new CustomTextSplitter("(02) 8188 8722 | HelloFresh.com.au");
-        // var bestiaryTextSplitter = new CustomTextSplitter("====");
+        // TODO use that one and find a suitable separator
 
         log.info("Reading documents from resources");
         var documents = new TextReader(pokedex).read();
-        // var documents = new TextReader(recipes).read();
-        // var documents = new TextReader(bestiary).read();
         /* You could also use a PDFReader for this, e.g. implementing a DocumentReader and using Apache PDFBox */
 
         log.info("Splitting documents");
         // var chunks = new TokenTextSplitter().transform(documents);
-        var chunks = pokemonTextSplitter.transform(documents);
-        // var chunks = recipesTextSplitter.transform(documents);
-        // var chunks = bestiaryTextSplitter.transform(documents);
+        var chunks = defaultTextSplitter.transform(documents);
 
         // Ingest the split document chunks into the vector store
         log.info("Ingesting {} chunks into the vector store", chunks.size());

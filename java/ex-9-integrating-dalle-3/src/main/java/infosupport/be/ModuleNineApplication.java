@@ -24,18 +24,7 @@ public class ModuleNineApplication {
         return args -> {
             var prompt = "A painting of a beautiful sunset over a calm lake.";
 
-            log.info("Running image model: {}", prompt);
-            ImageResponse response = imageClient.call(
-                    new ImagePrompt(prompt,
-                            // If red, don't forget to flip dependencies to openai, instead of azure
-                            OpenAiImageOptions.builder()
-                                    .withQuality("hd")
-                                    .withN(1)
-                                    .withHeight(1024)
-                                    .withWidth(1024)
-                                    .build()));
-
-            log.info("Response: {}", response.getResult().getOutput().getUrl());
+//            log.info("Response: {}", response.getResult().getOutput().getUrl());
         };
     }
 }
