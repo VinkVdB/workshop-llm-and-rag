@@ -34,9 +34,6 @@ public class ModuleTwoApplication {
 
             // Example 5: Using System Prompts
             systemPromptExample(chatClient);
-
-            // Example 6: Correcting Incorrect Responses
-            incorrectResponseExample(chatClient);
         };
     }
 
@@ -143,35 +140,6 @@ public class ModuleTwoApplication {
             System.out.println("Recommendations:\n" + response);
         } catch (Exception e) {
             log.error("Error in using system prompts", e);
-        }
-    }
-
-    private void incorrectResponseExample(ChatClient chatClient) {
-        log.info("=== Correcting Incorrect Responses ===");
-        try {
-            // Initial ambiguous question
-            String prompt = "Is it always raining in Belgium?";
-
-            String response = chatClient
-                    .prompt(prompt)
-                    .call()
-                    .content();
-            System.out.println("Initial Response:\n" + response);
-
-            // Provide additional context to get a better answer
-            String clarifiedPrompt = """
-                    Provide a detailed answer considering Belgium's climate and seasons:
-                    Is it always raining in Belgium?
-                    """;
-
-            String improvedResponse = chatClient
-                    .prompt(clarifiedPrompt)
-                    .call()
-                    .content();
-
-            System.out.println("Improved Response:\n" + improvedResponse);
-        } catch (Exception e) {
-            log.error("Error in correcting incorrect responses", e);
         }
     }
 }
