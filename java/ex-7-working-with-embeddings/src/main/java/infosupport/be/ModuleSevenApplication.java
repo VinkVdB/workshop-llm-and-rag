@@ -31,7 +31,11 @@ public class ModuleSevenApplication {
             // Fluent API: Perform embedding arithmetic
             EmbeddingVector result = embed("king").minus(embed("man").minus(embed("woman")));
 
-            // Find the top 5 closest terms to the resulting vector
+            // Find the top 5 closest terms to the resulting vector, excluding the terms used in the arithmetic
+            // Explanation:
+            //      distance(king, queen)   ~= distance(man, woman)
+            //      king - queen            ~= man - woman
+            //      king - (man - woman)    ~= queen
             var closestEmbeddings = embeddingManager.findTopK(result, 5, List.of("king", "man", "woman"));
 
             // Print the results
@@ -52,36 +56,19 @@ public class ModuleSevenApplication {
         }
     }
 
-    private final List<String> initialTerms = List.of(
-            "king", "queen", "man", "woman", "prince", "princess", "boy", "girl",
-            "nurse", "doctor", "waiter", "waitress", "actor", "actress", "teacher", "ceo", "secretary",
-            "plumber", "nanny", "programmer", "homemaker", "painter", "dancer",
-            "singer", "prostitute", "thief", "businessman", "businesswoman",
-            "policeman", "policewoman", "janitor", "priest",
-            "nun", "smart", "dumb", "idiot", "genius", "intelligent",
-            "stupid", "clever", "go", "went",
-            "swim", "swam", "sing", "sang",
-            "dance", "danced", "bring", "brought",
-            "break", "broke", "destroy", "destroyed",
-            "play", "played", "paint", "painted",
-            "look", "looked", "fail", "failed",
-            "fight", "fought", "betray", "betrayed",
-            "cheat", "cheated", "happy", "sad",
-            "rich", "poor", "important", "unimportant",
-            "evil", "healthy", "ill",
-            "high", "low", "conscious", "unconscious",
-            "unknown", "known", "finished", "incomplete", "complete",
-            "positive", "negative", "active", "passive",
-            "hot", "cold", "loud", "quiet",
-            "on", "off", "two", "2",
-            "three", "3", "four", "4",
-            "five", "5", "six", "6",
-            "seven", "7", "clear", "clearer", "clearest",
-            "dark", "darker", "darkest", "strong", "stronger", "strongest",
-            "long", "longer", "longest", "big", "bigger", "biggest",
-            "fat", "fatter", "fattest", "thin", "thinner", "thinnest",
-            "man", "woman", "uncle", "aunt",
-            "niece", "nephew", "brother", "sister",
-            "heir", "heiress", "son", "daughter",
-            "father", "mother", "grandfather", "grandmother");
+    private final List<String> initialTerms = List.of("king", "queen", "man", "woman", "prince", "princess",
+            "boy", "girl", "nurse", "doctor", "waiter", "waitress", "actor", "actress", "teacher", "ceo", "secretary",
+            "plumber", "nanny", "programmer", "homemaker", "painter", "dancer", "singer", "prostitute", "thief",
+            "businessman", "businesswoman", "policeman", "policewoman", "janitor", "priest", "nun", "smart", "dumb",
+            "idiot", "genius", "intelligent", "stupid", "clever", "go", "went", "swim", "swam", "sing", "sang",
+            "dance", "danced", "bring", "brought", "break", "broke", "destroy", "destroyed", "play", "played", "paint",
+            "painted", "look", "looked", "fail", "failed", "fight", "fought", "betray", "betrayed", "cheat", "cheated",
+            "happy", "sad", "rich", "poor", "important", "unimportant", "evil", "healthy", "ill", "high", "low",
+            "conscious", "unconscious", "unknown", "known", "finished", "incomplete", "complete", "positive",
+            "negative", "active", "passive", "hot", "cold", "loud", "quiet", "on", "off", "two", "2", "three", "3",
+            "four", "4", "five", "5", "six", "6", "seven", "7", "clear", "clearer", "clearest", "dark", "darker",
+            "darkest", "strong", "stronger", "strongest", "long", "longer", "longest", "big", "bigger", "biggest",
+            "fat", "fatter", "fattest", "thin", "thinner", "thinnest", "man", "woman", "uncle", "aunt", "niece",
+            "nephew", "brother", "sister", "heir", "heiress", "son", "daughter", "father", "mother", "grandfather",
+            "grandmother");
 }
