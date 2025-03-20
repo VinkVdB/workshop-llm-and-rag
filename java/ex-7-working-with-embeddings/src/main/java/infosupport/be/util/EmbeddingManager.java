@@ -1,14 +1,19 @@
 package infosupport.be.util;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.ai.vectorstore.SimpleVectorStore;
 import org.springframework.stereotype.Component;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 @Component
+@Slf4j
 public class EmbeddingManager {
     private final EmbeddingModel embeddingModel;
     private final ConcurrentHashMap<String, EmbeddingVector> embeddingsMap;
@@ -60,16 +65,16 @@ public class EmbeddingManager {
 
     // Methods to find top K similar terms
     // <editor-fold desc="Top K similar terms methods">
-    public List<Map.Entry<String, Double>> findTopK(String term, int amount) {
+    public List<Map.Entry<String, Double>> findTopKClosest(String term, int amount) {
         EmbeddingVector queryVector = valueOf(term);
-        return findTopK(queryVector, amount, List.of(term));
+        return findTopKClosest(queryVector, amount, List.of(term));
     }
 
-    public List<Map.Entry<String, Double>> findTopK(EmbeddingVector queryVector, int amount) {
-        return findTopK(queryVector, amount, null);
+    public List<Map.Entry<String, Double>> findTopKClosest(EmbeddingVector queryVector, int amount) {
+        return findTopKClosest(queryVector, amount, null);
     }
 
-    public List<Map.Entry<String, Double>> findTopK(EmbeddingVector queryVector, int amount, List<String> excludedTerms) {
+    public List<Map.Entry<String, Double>> findTopKClosest(EmbeddingVector queryVector, int amount, List<String> excludedTerms) {
         Map<String, Double> similarityMap = new HashMap<>();
         for (Map.Entry<String, EmbeddingVector> entry : embeddingsMap.entrySet()) {
             String term = entry.getKey();
@@ -90,15 +95,35 @@ public class EmbeddingManager {
     // <editor-fold desc="Add and embed new terms methods">
     public EmbeddingVector embedNewTerm(String term) {
         float[] embedding = embeddingModel.embed(term);
-        EmbeddingVector vector = new EmbeddingVector(embedding);
-        embeddingsMap.put(term, vector);
-        return vector;
+        return new EmbeddingVector(embedding);
     }
 
     public void embedNewTerms(List<String> terms) {
+        // 1) Detect duplicates in the given list and log a warning for each repeated term
+        Map<String, Long> frequencyMap = terms.stream()
+                .collect(Collectors.groupingBy(t -> t, Collectors.counting()));
+
+        // Log a single warning per term that appears more than once
+        frequencyMap.forEach((term, count) -> {
+            if (count > 1) {
+                log.warn("Term '{}' is repeated {} times in the list. "
+                        + "Overwriting embeddings for duplicates.", term, count);
+            }
+        });
+
+        // 2) Embed all terms at once for efficiency (assuming your model supports batch embedding)
         List<float[]> embeddings = embeddingModel.embed(terms);
+
+        // 3) Store them in the map, warning if a term already exists
         for (int i = 0; i < terms.size(); i++) {
-            embeddingsMap.put(terms.get(i), new EmbeddingVector(embeddings.get(i)));
+            String term = terms.get(i);
+
+            if (embeddingsMap.containsKey(term)) {
+                log.warn("Term '{}' is already present in the embeddings map. "
+                        + "Overwriting the existing embedding.", term);
+            }
+
+            embeddingsMap.put(term, new EmbeddingVector(embeddings.get(i)));
         }
     }
     // </editor-fold>
