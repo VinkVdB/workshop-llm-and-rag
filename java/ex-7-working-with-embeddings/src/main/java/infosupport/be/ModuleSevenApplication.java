@@ -83,22 +83,16 @@ public class ModuleSevenApplication {
             }
 
             try {
-                var result = calculator.calculate(input);
-                if (result == null) {
-                    continue;
-                }
-
-                // 5) Print results
-                printResults(result);
-
+                printResults(calculator.calculate(input));
             } catch (IllegalArgumentException ex) {
-                System.out.println("ERROR: " + ex.getMessage());
+                log.warn(ex.getMessage());
             } catch (Exception ex) {
-                System.out.println("ERROR: Something went wrong. " + ex);
+                log.error(ex.getMessage());
             }
         }
     }
 
+    // TODO: load in English dictionary
     private final List<String> initialTerms = List.of("king", "queen", "man", "woman", "prince", "princess",
             "boy", "girl", "nurse", "doctor", "waiter", "waitress", "actor", "actress", "teacher", "ceo", "secretary",
             "plumber", "nanny", "programmer", "homemaker", "painter", "dancer", "singer", "prostitute", "thief",

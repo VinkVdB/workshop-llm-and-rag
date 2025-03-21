@@ -40,8 +40,7 @@ public class EmbeddingCalculator {
         // 2) Parse expression and compute the resulting EmbeddingVector
         final EmbeddingVector result = parseAndComputeExpression(input);
         if (result == null) {
-            log.warn("Could not parse expression: [{}]", input);
-            return null;
+            throw new IllegalArgumentException("Could not parse expression: [" + input + "]");
         }
 
         // 3) Collect distinct terms used in the expression (for excluding them from results)
