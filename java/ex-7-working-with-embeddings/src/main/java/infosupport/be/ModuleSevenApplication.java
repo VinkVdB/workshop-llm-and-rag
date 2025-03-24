@@ -3,21 +3,23 @@ package infosupport.be;
 import infosupport.be.util.EmbeddingCalculator;
 import infosupport.be.util.EmbeddingManager;
 import infosupport.be.util.EmbeddingVector;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 
 @SpringBootApplication
+@RequiredArgsConstructor
 @Slf4j
 public class ModuleSevenApplication {
 
-    @Autowired
-    private EmbeddingManager embeddingManager;
+    private final EmbeddingManager embeddingManager;
 
     public static void main(String[] args) {
         SpringApplication.run(ModuleSevenApplication.class, args).close();
@@ -26,26 +28,28 @@ public class ModuleSevenApplication {
     @Bean
     public CommandLineRunner runner() {
         return args -> {
-            // Initialize some general terms
+            // 1) Initialize some general terms
             embeddingManager.embedNewTerms(initialTerms);
 
-            // Fluent API: Perform embedding arithmetic
+            // 2) Fluent API: Perform embedding arithmetic
             EmbeddingVector result = embed("king").minus(embed("man").minus(embed("woman")));
 
-            // Find the top 5 closest terms to the resulting vector, excluding the terms used in the arithmetic
+            // 3) Find the top 5 closest terms to the resulting vector, excluding the terms used in the arithmetic
             // Explanation:
-            //      distance(king, queen)   ~= distance(man, woman)
-            //      king - queen            ~= man - woman
-            //      king - (man - woman)    ~= queen
+            //      distance(man, woman)    ~= distance(king, queen)
+            //      man - woman             ~= king - queen
+            //      queen                   ~= king - (man - woman)
             var closestEmbeddings = embeddingManager.findTopKClosest(result, 5, List.of("king", "man", "woman"));
 
-            // Print the results
+            // 4) Print the results
             System.out.println("Results for embedding arithmetic (king - (man - woman)):");
             printResults(closestEmbeddings);
 
             // Run an interactive console to experiment with embedding arithmetic
             // Examples to try:
-            //      computer - (cat - mouse)
+            //      sushi - (japan - germany) // What's a typical German dish?
+            //      computer - (cat - mouse) // If the computer were a cat, who would be the mouse?
+            //      "Albert Einstein" - (genius - idiot) // Assuming Einstein fits best for genius, who fits for idiot?
             runInteractiveConsole();
         };
     }
@@ -92,7 +96,7 @@ public class ModuleSevenApplication {
         }
     }
 
-    // TODO: load in English dictionary
+    // TODO: load in English dictionary instead?
     private final List<String> initialTerms = List.of("king", "queen", "man", "woman", "prince", "princess",
             "boy", "girl", "nurse", "doctor", "waiter", "waitress", "actor", "actress", "teacher", "ceo", "secretary",
             "plumber", "nanny", "programmer", "homemaker", "painter", "dancer", "singer", "prostitute", "thief",
@@ -113,5 +117,7 @@ public class ModuleSevenApplication {
             "beans", "carrots", "potatoes", "tomatoes", "cucumbers", "lettuce", "spinach", "broccoli", "cauliflower",
             "cabbage", "onions", "garlic", "peppers", "chili", "pumpkin", "zucchini", "eggplant", "mushrooms", "corn",
             "rice", "wheat", "barley", "oats", "rye", "millet", "quinoa", "lentils", "chickpeas", "peas", "sushi",
-            "japan", "germany", "sauerkraut", "france", "baguette", "italy", "pasta", "spain", "paella");
+            "japan", "germany", "sauerkraut", "france", "baguette", "italy", "pasta", "spain", "paella", "popeye",
+            "Albert Einstein", "Donald Trump", "Brad Pitt", "Elvis Presley", "Leonardo Da Vinci", "Bruce Lee",
+            "Marilyn Monroe", "Charlie Chaplin", "Michael Jackson", "Madonna");
 }
