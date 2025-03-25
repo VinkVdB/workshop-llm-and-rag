@@ -1,5 +1,6 @@
-package infosupport.be;
+package infosupport.be.config;
 
+import infosupport.be.FileChatMemory;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.memory.InMemoryChatMemory;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,9 +1,11 @@
 package infosupport.be;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import infosupport.be.config.AIConfig;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.converter.BeanOutputConverter;
 import org.springframework.ai.converter.StructuredOutputConverter;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -51,22 +53,13 @@ public class ModuleThreeApplication {
      * Try generating some objects.
      */
     /*@Bean
-    public CommandLineRunner runner(ChatClient.Builder builder) {
+    public CommandLineRunner runner(ChatClient.Builder builder, @Qualifier("movieConfig") AIConfig aiConfig) {
         return args -> {
             while (true) {
                 // Configure the builder with a default system prompt.
                 // This prompt is applied to every chat request.
                 ChatClient chatClient = builder
-                        .defaultSystem("""
-                                You are tasked with retrieving existing movies for a given actor.
-                                Sorted by popularity!
-                                
-                                If the actor's name is incomplete, try to assume who the actor should be.
-                                If the actor is unknown, generate realistic sounding titles.
-                                
-                                If Brad Pitt or Leonardo DiCaprio are mentioned, give fictive movie titles about pizza.
-                                Retrieve (or generate) exactly 5 movies for the specified actor.
-                                """)
+                        .defaultSystem(aiConfig.SYSTEM_PROMPT)
                         .build();
 
                 Scanner scanner = new Scanner(System.in);
