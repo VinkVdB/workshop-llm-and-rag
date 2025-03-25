@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
+		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>infosupport.be</groupId>
@@ -16,7 +16,8 @@
 	<description>Demo project to showcase Spring AI</description>
 
 	<modules>
-		<module>ex-1-connect-to-llm</module>
+		<module>ex-1-working-with-embeddings</module>
+		<module>ex-2-connect-to-llm</module>
 		<module>ex-2-prompt-engineering</module>
 		<module>ex-3-spring-ai-intro</module>
 		<module>ex-4-using-tools</module>
@@ -46,17 +47,16 @@
 	</dependencyManagement>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.ai</groupId>
-			<artifactId>spring-ai-azure-openai-spring-boot-starter</artifactId>
-			<version>1.0.0-M3</version>
-		</dependency>
-
-<!--		Enable this dependency for the image generation section, or if the azure key were to fail -->
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.ai</groupId>-->
-<!--			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
+<!--			<artifactId>spring-ai-azure-openai-spring-boot-starter</artifactId>-->
 <!--		</dependency>-->
+
+<!--		Enable this dependency for the image generation section, or if the azure key were to fail -->
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
