@@ -69,7 +69,7 @@ public class ModuleThreeApplication {
                 String userPrompt = "I want to watch a movie that stars " + actor + ", can you recommend some movies?";
 
                 // Use BeanOutputConverter to convert the response into an ActorsFilms record.
-                BeanOutputConverter<ActorsFilms> converter = new BeanOutputConverter<>(ActorsFilms.class);
+                StructuredOutputConverter<ActorsFilms> converter = new BeanOutputConverter<>(ActorsFilms.class);
 
                 ActorsFilms response = chatClient
                         .prompt(userPrompt)
