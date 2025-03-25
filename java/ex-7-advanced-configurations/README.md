@@ -1,4 +1,4 @@
-# Module 8: Advanced Configurations
+# Module 7: Advanced Configurations
 
 ## Objective
 Explore various configuration options to fine-tune the LLM interactions.

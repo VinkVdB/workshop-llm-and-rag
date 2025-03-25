@@ -9,8 +9,7 @@ Explore RAG concepts and understand when to apply them.
 - Introduction to chunking and vector databases.
 
 ## Exercises
-1. Discuss the differences between traditional search (e.g., Elasticsearch) and vector databases.
-2. Use Spring AI's QuestionAnswerAdvisor and a Vectorstore to retrieve relevant information.
+1Use Spring AI's QuestionAnswerAdvisor and a Vectorstore to retrieve relevant information.
 
 ## Notes
 For this module we've chosen to exclude a reranker, as it's not necessary for the exercises. 

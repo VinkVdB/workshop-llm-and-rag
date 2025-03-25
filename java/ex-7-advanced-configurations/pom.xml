@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ex-8-advanced-configurations</artifactId>
+    <artifactId>ex-7-advanced-configurations</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

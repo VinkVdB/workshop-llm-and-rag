@@ -30,25 +30,25 @@ public class ModuleEightApplication {
             var defaultChatOptions = extractChatOptions(builder);
 
             // Temperature example
-//            temperatureExample(builder, defaultChatOptions.copy());
+            temperatureExample(builder, defaultChatOptions.copy());
 
             // Max Tokens example
-//            maxTokensExample(builder, defaultChatOptions.copy());
+            maxTokensExample(builder, defaultChatOptions.copy());
 
             // Number of Completions example, TODO it's recommended to connect an inMemoryChatMemory, otherwise it will generate near identical responses
-//            numberOfCompletionsExample(builder, defaultChatOptions.copy());
+            numberOfCompletionsExample(builder, defaultChatOptions.copy());
 
             // Stop Sequence example
-//            stopSequenceExample(builder, defaultChatOptions.copy());
+            stopSequenceExample(builder, defaultChatOptions.copy());
 
             // Presence Penalty example
-//            presencePenaltyExample(builder, defaultChatOptions.copy());
+            presencePenaltyExample(builder, defaultChatOptions.copy());
 
             // Frequency Penalty example
-//            frequencyPenaltyExample(builder, defaultChatOptions.copy());
+            frequencyPenaltyExample(builder, defaultChatOptions.copy());
 
             // Logit Bias example, TODO does not seem to function
-//            logitBiasExample(builder, defaultChatOptions.copy());
+            logitBiasExample(builder, defaultChatOptions.copy());
         };
     }
 
