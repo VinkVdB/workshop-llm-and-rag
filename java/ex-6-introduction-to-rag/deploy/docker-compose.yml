@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: raguser
+      POSTGRES_PASSWORD: very_secret_password_here
+      POSTGRES_DB: posgtres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+
+volumes:
+  postgres_data:
+    driver: local
