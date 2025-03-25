@@ -19,9 +19,16 @@
 
     <dependencies>
 <!--        Required for the local embedding model-->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-transformers-spring-boot-starter</artifactId>
+        </dependency>
+
+<!--        PGVector can be used together with postgres, to run a local vectorstore.
+            The starter does not seem to be available anymore.-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.ai</groupId>-->
-<!--            <artifactId>spring-ai-transformers-spring-boot-starter</artifactId>-->
+<!--            <artifactId>spring-ai-starter-vector-store-pgvector</artifactId>-->
 <!--        </dependency>-->
     </dependencies>
 

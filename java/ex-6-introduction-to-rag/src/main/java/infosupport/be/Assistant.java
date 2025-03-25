@@ -42,7 +42,10 @@ public class Assistant {
                         // new LoggingAdvisor(),
                         new PromptChatMemoryAdvisor(chatMemory),
                         // QuestionAnswerAdvisor to retrieve information from the vector store that is relevant to the user's request
-                        new QuestionAnswerAdvisor(vectorStore, SearchRequest.defaults().withTopK(3))
+                        new QuestionAnswerAdvisor(vectorStore, SearchRequest.builder()
+                                .topK(5)
+//                                .similarityThreshold(0.4d)
+                                .build())
                 )
                 .build();
     }

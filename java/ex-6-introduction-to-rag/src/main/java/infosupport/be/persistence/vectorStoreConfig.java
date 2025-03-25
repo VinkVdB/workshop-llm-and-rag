@@ -25,7 +25,7 @@ public class vectorStoreConfig {
 
     @Bean
     public VectorStore vectorStore(EmbeddingModel embeddingModel) {
-        var vectorStore = new SimpleVectorStore(embeddingModel);
+        var vectorStore = SimpleVectorStore.builder(embeddingModel).build();
 
         /* The TokenTextSplitter is a simple text splitter that attempts to retrieve paragraphs up to X amount of tokens before splitting.
         The problem with the TokenTextSplitter is that it has no knowledge of the structure of the text. Meaning it
