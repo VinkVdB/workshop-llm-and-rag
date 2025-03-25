@@ -1,6 +1,8 @@
 package infosupport.be;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -9,17 +11,19 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Flux;
 
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @SpringBootApplication
 @Slf4j
-public class ModuleTwoConnectApplication {
+public class ModuleTwoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleTwoConnectApplication.class, args);
+        SpringApplication.run(ModuleTwoApplication.class, args);
     }
 
     /**
@@ -42,7 +46,7 @@ public class ModuleTwoConnectApplication {
             requestBody.put("model", model);
             requestBody.put("messages", List.of(
                     Map.of("role", "user",
-                            "content", "Alright, tell me a poem!")
+                            "content", "Alright, write me a poem!")
             ));
 
             try {
@@ -65,39 +69,40 @@ public class ModuleTwoConnectApplication {
         };
     }
 
+    // = = = SPRING AI: Wait a bit until the end of the module = = =
 
     /**
      * This method waits for the LLM to finish processing the chat and then prints the response.
      */
-//    @Bean
-//    public CommandLineRunner runner(ChatClient.Builder builder) {
-//        return args -> {
-//            ChatClient chatClient = builder.build();
-//
-//            try {
-//                String response = chatClient
-//                        .prompt("Tell me a joke")
-//                        .call()
-//                        .content();
-//
-//                System.out.println(response);
-//            } catch (Exception e) {
-//                log.error("An error occurred while processing the chat. Please try again.", e);
-//            }
-//        };
-//    }
+    /*@Bean
+    public CommandLineRunner runner(ChatClient.Builder builder) {
+        return args -> {
+            ChatClient chatClient = builder.build();
+
+            try {
+                String response = chatClient
+                        .prompt("Write me a poem!")
+                        .call()
+                        .content(); // Try .chatResponse() instead for metadata;
+
+                System.out.println(response);
+            } catch (Exception e) {
+                log.error("An error occurred while processing the chat. Please try again.", e);
+            }
+        };
+    }*/
 
     /**
      * This method streams the LLM's response as it is being processed.
      */
-    /* @Bean
+    /*@Bean
     public CommandLineRunner runner(ChatClient.Builder builder) {
         return args -> {
             ChatClient chatClient = builder.build();
 
             try{
                 chatClient
-                        .prompt("Tell me a joke")
+                        .prompt("Write me a poem!")
                         .stream()
                         .content()
                         .delayElements(Duration.ofMillis(50))
@@ -108,5 +113,5 @@ public class ModuleTwoConnectApplication {
                 log.error("An error occurred while processing the chat. Please try again.", e);
             }
         };
-    } */
+    }*/
 }
