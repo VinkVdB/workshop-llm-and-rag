@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 public class ModuleThreeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleThreeApplication.class, args);
+        SpringApplication.run(ModuleThreeApplication.class, args).close();
     }
 
     @Bean

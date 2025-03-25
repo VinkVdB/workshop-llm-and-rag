@@ -9,7 +9,7 @@ Explore RAG concepts and understand when to apply them.
 - Introduction to chunking and vector databases.
 
 ## Exercises
-1Use Spring AI's QuestionAnswerAdvisor and a Vectorstore to retrieve relevant information.
+1) Use Spring AI's QuestionAnswerAdvisor and a Vectorstore to retrieve relevant information.
 
 ## Notes
 For this module we've chosen to exclude a reranker, as it's not necessary for the exercises. 

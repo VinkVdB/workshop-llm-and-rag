@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @Slf4j
-public class ModuleNineApplication {
+public class ModuleEightApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleNineApplication.class, args);
+        SpringApplication.run(ModuleEightApplication.class, args).close();
     }
 
     @Bean

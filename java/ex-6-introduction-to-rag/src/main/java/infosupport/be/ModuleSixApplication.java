@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class ModuleSixApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleSixApplication.class, args);
+        SpringApplication.run(ModuleSixApplication.class, args).close();
     }
 
     @Bean

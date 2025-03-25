@@ -6,7 +6,6 @@ Learn how to generate images using DALLE-3 and integrate it into your applicatio
 ## Contents
 - Overview of DALLE-3 capabilities.
 - Configuring image generation in Spring AI.
-- Using system prompts to guide image creation.
 
 ## Exercises
 1. Generate images for your Pokémon, recipe, attire, or monster.

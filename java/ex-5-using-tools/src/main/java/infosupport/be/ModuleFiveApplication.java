@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class ModuleFiveApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleFiveApplication.class, args);
+        SpringApplication.run(ModuleFiveApplication.class, args).close();
     }
 
     @Bean

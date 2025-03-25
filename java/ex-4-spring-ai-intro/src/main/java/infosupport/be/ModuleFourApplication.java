@@ -1,5 +1,11 @@
 package infosupport.be;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import infosupport.be.config.AIConfig;
+import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.converter.BeanOutputConverter;
+import org.springframework.ai.converter.StructuredOutputConverter;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,13 +13,14 @@ import org.springframework.context.annotation.Bean;
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
 public class ModuleFourApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleFourApplication.class, args);
+        SpringApplication.run(ModuleFourApplication.class, args).close();
     }
 
     /**

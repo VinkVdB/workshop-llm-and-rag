@@ -18,10 +18,10 @@ import java.util.Map;
 
 @SpringBootApplication
 @Slf4j
-public class ModuleEightApplication {
+public class ModuleSevenApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleEightApplication.class, args);
+        SpringApplication.run(ModuleSevenApplication.class, args).close();
     }
 
     @Bean
@@ -124,7 +124,7 @@ public class ModuleEightApplication {
 
             // High temperature (more creative)
             OpenAiChatOptions highTempOptions = options.copy();
-            highTempOptions.setTemperature(1.5); // Try 2.0 ;)
+            highTempOptions.setTemperature(1.2); // Try 2.0 ;)
 
             ChatClient clientHighTemp = createClient(builder, highTempOptions);
 

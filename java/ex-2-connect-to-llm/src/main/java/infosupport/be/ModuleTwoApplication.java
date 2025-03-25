@@ -23,7 +23,7 @@ import java.util.Map;
 public class ModuleTwoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleTwoApplication.class, args);
+        SpringApplication.run(ModuleTwoApplication.class, args).close();
     }
 
     /**
