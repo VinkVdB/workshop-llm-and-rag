@@ -6,16 +6,13 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import reactor.core.publisher.Flux;
-
-import java.time.Duration;
 
 @SpringBootApplication
 @Slf4j
-public class ModuleOneApplication {
+public class ModuleTwoConnectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleOneApplication.class, args);
+        SpringApplication.run(ModuleTwoConnectApplication.class, args);
     }
 
     /**

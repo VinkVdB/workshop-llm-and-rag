@@ -1,4 +1,4 @@
-# Module 1: Connecting to the LLM
+# Module 2: Connecting to the LLM
 
 ## Objective
 Learn how to connect to ChatGPT using an API key within a Spring Boot application.

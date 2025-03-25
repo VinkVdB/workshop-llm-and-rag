@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ex-1-connect-to-llm</artifactId>
+    <artifactId>ex-2-connect-to-llm</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
