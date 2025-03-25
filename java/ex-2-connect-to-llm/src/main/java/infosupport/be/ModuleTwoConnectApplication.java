@@ -41,29 +41,23 @@ public class ModuleTwoConnectApplication {
             Map<String, Object> requestBody = new HashMap<>();
             requestBody.put("model", model);
             requestBody.put("messages", List.of(
-//                    Map.of("role", "user",
-//                            "content", "From now on, only talk about pizza! Do you agree? 🍕"),
-//                    Map.of("role", "assistant",
-//                            "content", "I sure do!"),
                     Map.of("role", "user",
                             "content", "Alright, tell me a poem!")
             ));
-//            requestBody.put("temperature", 0.9); // Higher temperature means more randomness, going above 1.0 can lead to gibberish
-//            requestBody.put("stream", true); // Turning on streaming, will return the response in chunks
 
             try {
                 System.out.println("Streaming response from OpenAI:");
 
                 // Send the POST request and process the response as a stream.
-                client.post()
+                String jsonResponse = client.post()
                         .uri("/chat/completions")
                         .contentType(MediaType.APPLICATION_JSON)
                         .bodyValue(requestBody)
                         .retrieve()
-                        .bodyToFlux(String.class)
-//                        .delayElements(Duration.ofMillis(50)) // You could turn on a delay, to get the streamin-feel
-                        .doOnNext(System.out::println)
-                        .blockLast();
+                        .bodyToMono(String.class)
+                        .block();
+
+                System.out.println(jsonResponse);
 
             } catch (Exception e) {
                 log.error("An error occurred while processing the chat. Please try again.", e);
