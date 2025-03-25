@@ -13,7 +13,7 @@ public class LoggingAdvisor implements CallAroundAdvisor, StreamAroundAdvisor {
      */
     @Override
     public String getName() {
-        return "LoggingAdvisor";
+        return this.getClass().getSimpleName();
     }
 
     /**
@@ -27,18 +27,18 @@ public class LoggingAdvisor implements CallAroundAdvisor, StreamAroundAdvisor {
 
     @Override
     public AdvisedResponse aroundCall(AdvisedRequest advisedRequest, CallAroundAdvisorChain chain) {
-        System.out.println("Request:\n" + advisedRequest);
-        AdvisedResponse response = chain.nextAroundCall(advisedRequest);
-        System.out.println("\nResponse:\n" + response);
-        return response;
+        log.info("BEFORE: {}", advisedRequest);
+        AdvisedResponse advisedResponse = chain.nextAroundCall(advisedRequest);
+        log.info("AFTER: {}", advisedResponse);
+        return advisedResponse;
     }
 
     @Override
     public Flux<AdvisedResponse> aroundStream(AdvisedRequest advisedRequest, StreamAroundAdvisorChain chain) {
-        System.out.println("Request:\n" + advisedRequest);
-        Flux<AdvisedResponse> responses = chain.nextAroundStream(advisedRequest);
-        return new MessageAggregator().aggregateAdvisedResponse(responses, aggregatedAdvisedResponse ->
-                System.out.println("\nResponse:\n" + aggregatedAdvisedResponse));
+        log.info("BEFORE: {}", advisedRequest);
+        Flux<AdvisedResponse> advisedResponses = chain.nextAroundStream(advisedRequest);
+        return new MessageAggregator().aggregateAdvisedResponse(advisedResponses,
+                advisedResponse -> log.info("AFTER: {}", advisedResponse));
     }
 }
 
