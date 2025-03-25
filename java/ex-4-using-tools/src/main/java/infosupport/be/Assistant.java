@@ -1,11 +1,14 @@
 package infosupport.be;
 
-import infosupport.be.config.LoggingAdvisor;
+import infosupport.be.config.AIConfig;
+import infosupport.be.config.ToolConfig;
+import infosupport.be.services.PasswordService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.PromptChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 
@@ -19,20 +22,18 @@ public class Assistant {
     private final ChatClient chatClient;
 
     @Autowired
-    public Assistant(ChatClient.Builder modelBuilder, ChatMemory chatMemory) {
+    public Assistant(
+            ChatClient.Builder modelBuilder,
+            ChatMemory chatMemory,
+            @Qualifier("chatConfig") AIConfig aiConfig,
+            PasswordService passwordService){
         this.chatClient = modelBuilder
-                .defaultSystem("""
-                        Greet the user and ask for their name.
-                        If they have no password stored using getPassword, ask them to provide one and use upsertPassword to save it.
-                        If they provide a password, verify it with verifyPassword; if correct, tell a friendly joke. if incorrect, ask them to try again or admit they forgot it.
-                        
-                        Always be polite, clear, and keep interactions secure and private.
-                        Use parallel function calling if useful or required.
-                        """)
+                .defaultSystem(aiConfig.SYSTEM_PROMPT)
                 .defaultAdvisors(
                         // new LoggingAdvisor(),
                         new PromptChatMemoryAdvisor(chatMemory)
                 )
+                .defaultTools(new ToolConfig(passwordService)) // Tools can also be added to the chat client
                 .build();
     }
 
@@ -44,6 +45,7 @@ public class Assistant {
                             .param(CHAT_MEMORY_CONVERSATION_ID_KEY, chatId)
                             .param(CHAT_MEMORY_RETRIEVE_SIZE_KEY, 10)
                     )
+//                    .tools(...) // Tools can also be added here. E.g. if certain actions are not always available
                     .stream()
                     .content();
         } catch (Exception e) {
