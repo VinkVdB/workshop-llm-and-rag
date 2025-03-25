@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @Slf4j
-public class ModuleTwoApplication {
+public class ModulePromptEngineeringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModuleTwoApplication.class, args);
+        SpringApplication.run(ModulePromptEngineeringApplication.class, args);
     }
 
     @Bean

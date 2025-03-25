@@ -18,7 +18,6 @@
 	<modules>
 		<module>ex-1-working-with-embeddings</module>
 		<module>ex-2-connect-to-llm</module>
-		<module>ex-2-prompt-engineering</module>
 		<module>ex-3-spring-ai-intro</module>
 		<module>ex-4-using-tools</module>
 		<module>ex-5-context-enrichment</module>
@@ -26,6 +25,7 @@
         <module>ex-8-advanced-configurations</module>
         <module>ex-9-integrating-dalle-3</module>
 		<module>ex-10-prompt-injection-and-security</module>
+		<module>ex-PE-prompt-engineering</module>
 	</modules>
 
 	<properties>

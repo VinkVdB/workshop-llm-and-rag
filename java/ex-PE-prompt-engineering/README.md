@@ -1,4 +1,4 @@
-# Module 2: Prompt Engineering - Tips & Tricks
+# Module ?: Prompt Engineering - Tips & Tricks
 
 ## Objective
 Understand the fundamentals of prompt engineering, e.g. one-shot, multishot, chain of thought.

@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ex-2-prompt-engineering</artifactId>
+    <artifactId>ex-PE-prompt-engineering</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
