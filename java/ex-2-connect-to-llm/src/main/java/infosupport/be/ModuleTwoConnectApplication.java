@@ -1,11 +1,18 @@
 package infosupport.be;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @SpringBootApplication
 @Slf4j
@@ -16,25 +23,75 @@ public class ModuleTwoConnectApplication {
     }
 
     /**
-     * This method waits for the LLM to finish processing the chat and then prints the response.
+     * This CommandLineRunner creates a WebClient instance configured to call OpenAI’s Chat API.
+     * The API key is taken from application.properties or an environment variable.
      */
     @Bean
-    public CommandLineRunner runner(ChatClient.Builder builder) {
+    public CommandLineRunner runner(WebClient.Builder webClientBuilder,
+                                    @Value("${spring.ai.openai.api-key}") String apiKey,
+                                    @Value("${spring.ai.openai.chat.options.model}") String model) {
         return args -> {
-            ChatClient chatClient = builder.build();
+            WebClient client = webClientBuilder
+                    .baseUrl("https://api.openai.com/v1")
+                    .defaultHeader(HttpHeaders.AUTHORIZATION, "Bearer " + apiKey)
+                    .build();
+
+            // Prepare the request body for the Chat Completions API.
+            // See: https://platform.openai.com/docs/api-reference/chat
+            Map<String, Object> requestBody = new HashMap<>();
+            requestBody.put("model", model);
+            requestBody.put("messages", List.of(
+//                    Map.of("role", "user",
+//                            "content", "From now on, only talk about pizza! Do you agree? 🍕"),
+//                    Map.of("role", "assistant",
+//                            "content", "I sure do!"),
+                    Map.of("role", "user",
+                            "content", "Alright, tell me a poem!")
+            ));
+//            requestBody.put("temperature", 0.9); // Higher temperature means more randomness, going above 1.0 can lead to gibberish
+//            requestBody.put("stream", true); // Turning on streaming, will return the response in chunks
 
             try {
-                String response = chatClient
-                        .prompt("Tell me a joke")
-                        .call()
-                        .content();
+                System.out.println("Streaming response from OpenAI:");
 
-                System.out.println(response);
+                // Send the POST request and process the response as a stream.
+                client.post()
+                        .uri("/chat/completions")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .bodyValue(requestBody)
+                        .retrieve()
+                        .bodyToFlux(String.class)
+//                        .delayElements(Duration.ofMillis(50)) // You could turn on a delay, to get the streamin-feel
+                        .doOnNext(System.out::println)
+                        .blockLast();
+
             } catch (Exception e) {
                 log.error("An error occurred while processing the chat. Please try again.", e);
             }
         };
     }
+
+
+    /**
+     * This method waits for the LLM to finish processing the chat and then prints the response.
+     */
+//    @Bean
+//    public CommandLineRunner runner(ChatClient.Builder builder) {
+//        return args -> {
+//            ChatClient chatClient = builder.build();
+//
+//            try {
+//                String response = chatClient
+//                        .prompt("Tell me a joke")
+//                        .call()
+//                        .content();
+//
+//                System.out.println(response);
+//            } catch (Exception e) {
+//                log.error("An error occurred while processing the chat. Please try again.", e);
+//            }
+//        };
+//    }
 
     /**
      * This method streams the LLM's response as it is being processed.
