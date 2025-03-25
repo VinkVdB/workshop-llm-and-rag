@@ -23,7 +23,6 @@
 		<module>ex-4-using-tools</module>
 		<module>ex-5-context-enrichment</module>
 		<module>ex-6-introduction-to-rag</module>
-		<module>ex-7-working-with-embeddings</module>
         <module>ex-8-advanced-configurations</module>
         <module>ex-9-integrating-dalle-3</module>
 		<module>ex-10-prompt-injection-and-security</module>
@@ -31,7 +30,7 @@
 
 	<properties>
 		<java.version>21</java.version>
-		<spring-ai.version>1.0.0-M3</spring-ai.version>
+		<spring-ai.version>1.0.0-M6</spring-ai.version>
 	</properties>
 
 	<dependencyManagement>
