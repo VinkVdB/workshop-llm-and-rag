@@ -1,11 +1,10 @@
 package infosupport.be;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.ai.azure.openai.AzureOpenAiChatOptions;
-import org.springframework.ai.azure.openai.AzureOpenAiResponseFormat;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.DefaultChatClient;
 import org.springframework.ai.chat.prompt.ChatOptions;
+import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -50,9 +49,6 @@ public class ModuleEightApplication {
 
             // Logit Bias example, TODO does not seem to function
 //            logitBiasExample(builder, defaultChatOptions.copy());
-
-            // Response Format example
-//            responseFormatExample(builder, defaultChatOptions.copy());
         };
     }
 
@@ -63,11 +59,11 @@ public class ModuleEightApplication {
      * Is a bit overkill, since the only settings currently are deployment name and temperature.
      * But I figured I'd do it this way to not override any settings you make in application.properties.
      */
-    private static AzureOpenAiChatOptions extractChatOptions(ChatClient.Builder builder) {
+    private static OpenAiChatOptions extractChatOptions(ChatClient.Builder builder) {
         try {
             Field privateField = DefaultChatClient.DefaultChatClientRequestSpec.class.getDeclaredField("chatOptions");
             privateField.setAccessible(true);
-            return (AzureOpenAiChatOptions) privateField.get(builder.build().prompt());
+            return (OpenAiChatOptions) privateField.get(builder.build().prompt());
         } catch (NoSuchFieldException | IllegalAccessException e) {
             throw new RuntimeException("Failed to access default ChatOptions", e);
         }
@@ -110,14 +106,14 @@ public class ModuleEightApplication {
      * Usage: Increase temperature for creative tasks, like generating story ideas or brainstorming, and lower it for tasks needing accuracy and consistency, like fact-based queries.
      * Example: temperature = 0.2 results in a precise, repeatable answer, while temperature = 0.8 produces more varied, imaginative answers.
      */
-    private void temperatureExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void temperatureExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Temperature Setting ===");
 
         try {
-            String prompt = "What colour is the sky?";
+            String prompt = "Tell me a short poem about pizza?";
 
             // Low temperature (more deterministic)
-            AzureOpenAiChatOptions lowTempOptions = options.copy();
+            org.springframework.ai.openai.OpenAiChatOptions lowTempOptions = options.copy();
             lowTempOptions.setTemperature(0.0);
 
             ChatClient clientLowTemp = createClient(builder, lowTempOptions);
@@ -127,8 +123,8 @@ public class ModuleEightApplication {
 
 
             // High temperature (more creative)
-            AzureOpenAiChatOptions highTempOptions = options.copy();
-            highTempOptions.setTemperature(1.0); // Try 2.0 ;)
+            OpenAiChatOptions highTempOptions = options.copy();
+            highTempOptions.setTemperature(1.5); // Try 2.0 ;)
 
             ChatClient clientHighTemp = createClient(builder, highTempOptions);
 
@@ -146,14 +142,14 @@ public class ModuleEightApplication {
      * Usage: Set maxTokens to limit response length for tasks that need concise answers (e.g., summaries, short answers) or increase it to allow for more detailed, extensive responses.
      * Example: maxTokens = 50 might yield a brief answer, while maxTokens = 200 would generate a longer, more comprehensive response.
      */
-    private void maxTokensExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void maxTokensExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Max Tokens Setting ===");
 
         try {
             String prompt = "Summarize the theory of relativity in simple terms.";
 
             // Set max tokens to 10
-            AzureOpenAiChatOptions maxTokensOptions = options.copy();
+            OpenAiChatOptions maxTokensOptions = options.copy();
             maxTokensOptions.setMaxTokens(10);
 
             ChatClient clientMaxTokens = createClient(builder, maxTokensOptions);
@@ -172,17 +168,17 @@ public class ModuleEightApplication {
      * Usage: Set n to a higher number to generate multiple answers in a single request, useful for brainstorming or getting varied responses to the same prompt.
      * Example: n = 3 generates three different answers, allowing you to choose the best one for a given context.
      */
-    private void numberOfCompletionsExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void numberOfCompletionsExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Number of Completions (n) Setting ===");
 
         try {
             String prompt = "Suggest a unique name for a new eco-friendly coffee cup.";
 
             // Set number of completions to 5
-            AzureOpenAiChatOptions multipleCompletionsOptions = options.copy();
-            multipleCompletionsOptions.setN(5);
+            OpenAiChatOptions multipleCompletionsOptions = options.copy();
+            multipleCompletionsOptions.setN(2); // TODO, seems to run simultaneously on multiple LLMs.
 
-            // TODO, it's recommended to connect an inMemoryChatMemory, otherwise it will generate near identical responses
+            // TODO, it's recommended to connect an inMemoryChatMemory or raise temperature, otherwise it will generate identical responses
             ChatClient clientMultipleCompletions = createClient(builder, multipleCompletionsOptions);
 
             log.info("Response with Multiple Completions:");
@@ -199,14 +195,14 @@ public class ModuleEightApplication {
      * Usage: Define specific phrases (like a newline character \n or specific word) that signal the model to stop, controlling the length and relevance of responses.
      * Example: Setting stop = ["\n"] will make the model stop generating after the first line, ideal for single-line responses.
      */
-    private void stopSequenceExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void stopSequenceExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Stop Sequence Setting ===");
 
         try {
             String prompt = "List some popular programming languages and their creators.";
 
             // Set stop sequences to end after each line
-            AzureOpenAiChatOptions stopSequenceOptions = options.copy();
+            OpenAiChatOptions stopSequenceOptions = options.copy();
             stopSequenceOptions.setStopSequences(List.of("\n"));
 
             ChatClient clientStopSequence = createClient(builder, stopSequenceOptions);
@@ -226,14 +222,14 @@ public class ModuleEightApplication {
      * Usage: Useful in creative or brainstorming tasks where you want diverse output, and repetition is undesirable.
      * Example: presencePenalty = 1.0 makes the model more likely to bring in new ideas and topics, while presencePenalty = 0.0 allows it to repeat concepts if relevant.
      */
-    private void presencePenaltyExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void presencePenaltyExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Presence Penalty Setting ===");
 
         try {
             String prompt = "Write a short poem about the ocean.";
 
             // Set presence penalty to 1.0 to encourage diversity
-            AzureOpenAiChatOptions presencePenaltyOptions = options.copy();
+            OpenAiChatOptions presencePenaltyOptions = options.copy();
             presencePenaltyOptions.setPresencePenalty(2.0);
 
             ChatClient clientPresencePenalty = createClient(builder, presencePenaltyOptions);
@@ -253,14 +249,14 @@ public class ModuleEightApplication {
      * Usage: Reduces redundancy in the output, ideal for cases where you want a concise, non-repetitive answer.
      * Example: frequencyPenalty = 1.0 limits repetitive phrases, useful in tasks like summarization or response generation where verbosity should be minimized.
      */
-    private void frequencyPenaltyExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void frequencyPenaltyExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Frequency Penalty Setting ===");
 
         try {
             String prompt = "Explain briefly the importance of regular exercise.";
 
             // Set frequency penalty to 1.0 to reduce repetition
-            AzureOpenAiChatOptions frequencyPenaltyOptions = options.copy();
+            OpenAiChatOptions frequencyPenaltyOptions = options.copy();
             frequencyPenaltyOptions.setFrequencyPenalty(2.0);
 
             ChatClient clientFrequencyPenalty = createClient(builder, frequencyPenaltyOptions);
@@ -277,17 +273,21 @@ public class ModuleEightApplication {
      * logitBias
      * Description: A map that biases the likelihood of specific tokens appearing in the output. Each token can be associated with a bias score between -100 and 100, where negative values reduce the token's likelihood and positive values increase it.
      * Usage: Useful for steering the model toward or away from specific words or topics. For example, if you want the model to avoid using "negative" words, you can assign a negative bias to those tokens.
-     * Example: logitBias = { "positive": 50, "negative": -50 } would make "positive" more likely to appear in responses and "negative" less likely.
+     * Example: logitBias = { "positive_token_id": 50, "negative_token_id": -50 } would make "positive" more likely to appear in responses and "negative" less likely.
      */
-    private void logitBiasExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
+    private void logitBiasExample(ChatClient.Builder builder, OpenAiChatOptions options) {
         log.info("=== Logit Bias Setting ===");
 
         try {
             String prompt = "Describe the colors you might see in a sunset.";
 
             // Set logit bias to prefer certain colors
-            AzureOpenAiChatOptions logitBiasOptions = options.copy();
-            Map<String, Integer> logitBiasMap = Map.of("red", -100, "orange", -100, "yellow", -100, "blue", 100);
+            OpenAiChatOptions logitBiasOptions = options.copy();
+            Map<String, Integer> logitBiasMap = Map.of(
+                    "1291", -100, "7805", -100, // red& Red
+                    "65681", -100, "64615", -100, // orange & Orange
+                    "60139", -100, "67777", -100, // yellow & Yellow
+                    "18789", 10, "15957", 2); // blue & Blue
             logitBiasOptions.setLogitBias(logitBiasMap);
 
             ChatClient clientLogitBias = createClient(builder, logitBiasOptions);
@@ -306,35 +306,35 @@ public class ModuleEightApplication {
      * Usage: Choose JSON format if the response needs to be parsed programmatically, or TEXT if it should be displayed directly to users.
      * Example: responseFormat = AzureOpenAiResponseFormat.JSON ensures the output is structured as JSON, useful for applications needing structured data.
      */
-    private void responseFormatExample(ChatClient.Builder builder, AzureOpenAiChatOptions options) {
-        log.info("=== Response Format Setting ===");
-
-        try {
-            String promptPlain = "Provide information about Pikachu, I expect name, type, weaknesses and some notes.";
-
-            // Plain text format
-            AzureOpenAiChatOptions plainTextOptions = options.copy();
-            plainTextOptions.setResponseFormat(AzureOpenAiResponseFormat.TEXT);
-
-            ChatClient clientWithPlainTextFormat = createClient(builder, plainTextOptions);
-
-            log.info("Plain Text Response:");
-            executePrompt(clientWithPlainTextFormat, promptPlain);
-
-            // JSON format, YOU NEED 'json' IN THE PROMPT or else an exception is thrown
-            String promptJson = "Provide information about Pikachu, I expect name, type, weaknesses and some notes. As a json object.";
-
-            AzureOpenAiChatOptions jsonOptions = options.copy();
-            jsonOptions.setResponseFormat(AzureOpenAiResponseFormat.JSON);
-
-            ChatClient clientWithJSONFormat = createClient(builder, jsonOptions);
-
-            log.info("JSON Response:");
-            executePrompt(clientWithJSONFormat, promptJson);
-
-        } catch (Exception e) {
-            log.error("Error in response format example", e);
-        }
-    }
+//    private void responseFormatExample(ChatClient.Builder builder, OpenAiChatOptions options) {
+//        log.info("=== Response Format Setting ===");
+//
+//        try {
+//            String promptPlain = "Provide information about Pikachu, I expect name, type, weaknesses and some notes.";
+//
+//            // Plain text format
+//            OpenAiChatOptions plainTextOptions = options.copy();
+//            plainTextOptions.setResponseFormat(OpenAiResponseFormat.TEXT);
+//
+//            ChatClient clientWithPlainTextFormat = createClient(builder, plainTextOptions);
+//
+//            log.info("Plain Text Response:");
+//            executePrompt(clientWithPlainTextFormat, promptPlain);
+//
+//            // JSON format, YOU NEED 'json' IN THE PROMPT or else an exception is thrown
+//            String promptJson = "Provide information about Pikachu, I expect name, type, weaknesses and some notes. As a json object.";
+//
+//            OpenAiChatOptions jsonOptions = options.copy();
+//            jsonOptions.setResponseFormat(OpenAiResponseFormat.JSON);
+//
+//            ChatClient clientWithJSONFormat = createClient(builder, jsonOptions);
+//
+//            log.info("JSON Response:");
+//            executePrompt(clientWithJSONFormat, promptJson);
+//
+//        } catch (Exception e) {
+//            log.error("Error in response format example", e);
+//        }
+//    }
 
 }
