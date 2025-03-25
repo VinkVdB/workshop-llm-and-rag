@@ -82,7 +82,7 @@ public class FileChatMemory implements ChatMemory {
 
     private String serializeMessage(Message message) {
         // Simple serialization: messageType|content
-        return message.getMessageType() + "|" + message.getContent().replace("\n", "\\n");
+        return message.getMessageType() + "|" + message.getText().replace("\n", "\\n");
     }
 
     private Message deserializeMessage(String serializedMessage) {

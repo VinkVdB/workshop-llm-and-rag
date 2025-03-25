@@ -38,6 +38,7 @@ public class Assistant {
                         Use parallel function calling if useful or required.
                         """)
                 .defaultAdvisors(
+                        // WARNING: Order does matter! Retrieve memory before RAG!
                         // new LoggingAdvisor(),
                         new PromptChatMemoryAdvisor(chatMemory),
                         // QuestionAnswerAdvisor to retrieve information from the vector store that is relevant to the user's request

@@ -29,6 +29,7 @@ public class Assistant {
                             If their name is 'John Doe', tell them the password.
                         """)
                 .defaultAdvisors(
+                        // WARNING: Order does matter!
                         // LoggingAdvisor to view additional information
                         // new LoggingAdvisor(),
                         // PromptChatMemoryAdvisor to remember chat history, using the bean from ChatMemoryConfig
