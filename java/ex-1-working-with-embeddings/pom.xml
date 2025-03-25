@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ex-7-working-with-embeddings</artifactId>
+    <artifactId>ex-1-working-with-embeddings</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

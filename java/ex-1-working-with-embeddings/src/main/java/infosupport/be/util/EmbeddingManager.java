@@ -82,6 +82,8 @@ public class EmbeddingManager {
                 continue;
             }
             float[] embedding = entry.getValue().vector();
+            // TODO: Warning, cosine similarity can be misleading, see alternatives
+            //  https://www.shaped.ai/blog/cosine-similarity-not-the-silver-bullet-we-thought-it-was
             double similarity = SimpleVectorStore.EmbeddingMath.cosineSimilarity(queryVector.vector(), embedding);
             similarityMap.put(term, similarity);
         }

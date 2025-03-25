@@ -1,6 +1,8 @@
 package infosupport.be.plot;
 
 import infosupport.be.util.EmbeddingManager;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -15,7 +17,11 @@ import java.util.List;
  * Generates a 2D plot of word embeddings on custom axes (X and Y)
  * and saves it as a PNG image. Uses midpoint-based centering for each axis.
  */
+@Component
+@RequiredArgsConstructor
 public class EmbeddingPlotter {
+
+    private final EmbeddingManager embeddingManager;
 
     /**
      * Renders a 2D scatter plot of the given words onto the provided anchors
@@ -23,7 +29,6 @@ public class EmbeddingPlotter {
      * as a PNG. The "axisX" and "axisY" parameters are not used directly here;
      * we recalculate axis vectors from the anchor terms for clarity.
      *
-     * @param embeddingManager manager to fetch embeddings
      * @param words            words to be plotted
      * @param width            image width (pixels)
      * @param height           image height (pixels)
@@ -34,7 +39,6 @@ public class EmbeddingPlotter {
      * @param outputFile       path to the PNG output
      */
     public void plot2DToImage(
-            EmbeddingManager embeddingManager,
             List<String> words,
             int width,
             int height,

@@ -2,6 +2,7 @@ package infosupport.be.util;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -15,8 +16,9 @@ import java.util.regex.Pattern;
  * Example of usage: {@code calculate("king - (man - woman)"} returns a list of
  * the top-5 similar terms (excluding "king", "man", and "woman").
  */
-@Slf4j
+@Component
 @RequiredArgsConstructor
+@Slf4j
 public class EmbeddingCalculator {
 
     private final EmbeddingManager embeddingManager;

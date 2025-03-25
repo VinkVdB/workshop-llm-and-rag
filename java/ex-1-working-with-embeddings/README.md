@@ -1,4 +1,4 @@
-# Module 7: Working with Text Embeddings
+# Module 1: Working with Text Embeddings
 
 ## Objective
 Learn about text embeddings and how to use them for similarity searches.
