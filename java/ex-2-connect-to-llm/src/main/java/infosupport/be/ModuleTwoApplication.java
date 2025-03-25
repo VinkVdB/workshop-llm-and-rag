@@ -103,11 +103,11 @@ public class ModuleTwoApplication {
             try{
                 chatClient
                         .prompt("Write me a poem!")
-                        .stream()
+                        .stream() // Tell the model to stream the response
                         .content()
-                        .delayElements(Duration.ofMillis(50))
+                        .delayElements(Duration.ofMillis(50)) // Slow down the output
                         .doOnNext(System.out::print)
-                        .onErrorResume(e -> Flux.empty())
+                        .onErrorResume(e -> Flux.empty()) // Ignore errors
                         .blockLast();
             } catch (Exception e) {
                 log.error("An error occurred while processing the chat. Please try again.", e);
