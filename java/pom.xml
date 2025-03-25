@@ -23,7 +23,7 @@
 		<module>ex-5-using-tools</module>
 		<module>ex-6-introduction-to-rag</module>
         <module>ex-7-advanced-configurations</module>
-        <module>ex-9-integrating-dalle-3</module>
+        <module>ex-8-integrating-dalle-3</module>
 	</modules>
 
 	<properties>

@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ex-9-integrating-dalle-3</artifactId>
+    <artifactId>ex-8-integrating-dalle-3</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

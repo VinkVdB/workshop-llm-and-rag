@@ -1,4 +1,4 @@
-# Module 9: Integrating DALLE-3
+# Module 8: Integrating DALLE-3
 
 ## Objective
 Learn how to generate images using DALLE-3 and integrate it into your application.
