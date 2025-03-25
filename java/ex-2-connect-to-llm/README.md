@@ -1,13 +1,12 @@
 # Module 2: Connecting to the LLM
 
 ## Objective
-Learn how to connect to ChatGPT using an API key within a Spring Boot application.
+Learn how to connect to ChatGPT using an API key.
 
 ## Contents
+- Connecting manually to the LLM API.
+- Playing around with some settings.
 - Setting up Spring AI dependencies.
+- Streaming responses.
 - Configuring API keys.
 - Writing a simple CommandLineRunner to send and receive a single message from ChatGPT.
-
-## Exercises
-1. Implement a CommandLineRunner that sends a prompt to ChatGPT and prints the response.
-2. Handle exceptions and errors from the API.
