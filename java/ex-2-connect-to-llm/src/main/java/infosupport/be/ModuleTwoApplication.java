@@ -44,15 +44,13 @@ public class ModuleTwoApplication {
             // See: https://platform.openai.com/docs/api-reference/chat
             Map<String, Object> requestBody = new HashMap<>();
             requestBody.put("model", model);
-            requestBody.put("messages", List.of(
-                    Map.of("role", "user",
-                            "content", "Alright, write me a poem!")
-            ));
+
+            // TODO: Add your message, history, config, ... to the request body
 
             try {
                 System.out.println("Streaming response from OpenAI:");
 
-                // Send the POST request and process the response as a stream.
+                // Send the POST request
                 String jsonResponse = client.post()
                         .uri("/chat/completions")
                         .contentType(MediaType.APPLICATION_JSON)
@@ -68,50 +66,4 @@ public class ModuleTwoApplication {
             }
         };
     }
-
-    // = = = SPRING AI: Wait a bit until the end of the module = = =
-
-    /**
-     * This method waits for the LLM to finish processing the chat and then prints the response.
-     */
-    /*@Bean
-    public CommandLineRunner runner(ChatClient.Builder builder) {
-        return args -> {
-            ChatClient chatClient = builder.build();
-
-            try {
-                String response = chatClient
-                        .prompt("Write me a poem!")
-                        .call()
-                        .content(); // Try .chatResponse() instead for metadata;
-
-                System.out.println(response);
-            } catch (Exception e) {
-                log.error("An error occurred while processing the chat. Please try again.", e);
-            }
-        };
-    }*/
-
-    /**
-     * This method streams the LLM's response as it is being processed.
-     */
-    /*@Bean
-    public CommandLineRunner runner(ChatClient.Builder builder) {
-        return args -> {
-            ChatClient chatClient = builder.build();
-
-            try{
-                chatClient
-                        .prompt("Write me a poem!")
-                        .stream() // Tell the model to stream the response
-                        .content()
-                        .delayElements(Duration.ofMillis(50)) // Slow down the output
-                        .doOnNext(System.out::print)
-                        .onErrorResume(e -> Flux.empty()) // Ignore errors
-                        .blockLast();
-            } catch (Exception e) {
-                log.error("An error occurred while processing the chat. Please try again.", e);
-            }
-        };
-    }*/
 }

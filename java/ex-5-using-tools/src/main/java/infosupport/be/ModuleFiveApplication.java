@@ -21,7 +21,7 @@ public class ModuleFiveApplication {
         return args -> {
             // Start the command-line chat interface
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Please provide your username and password to hear a joke!");
+            System.out.print("--- INFO: The LLM will need a username and password, before telling a joke");
 
             // Start the chat loop
             while (true) {

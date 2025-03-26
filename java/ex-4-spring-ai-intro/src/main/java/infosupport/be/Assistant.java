@@ -22,16 +22,13 @@ public class Assistant {
     private final ChatClient chatClient;
 
     @Autowired
-    public Assistant(ChatClient.Builder modelBuilder, ChatMemory chatMemory, @Qualifier("chatConfig") AIConfig aiConfig) {
+    public Assistant(ChatClient.Builder modelBuilder, @Qualifier("chatConfig") AIConfig aiConfig) {
         // We use the injected ChatClient.Builder from Spring AI to build the ChatClient
         this.chatClient = modelBuilder
-                .defaultSystem(aiConfig.SYSTEM_PROMPT)
+                // TODO: Add system prompt from AIConfig
                 .defaultAdvisors(
-                        // Order does matter and is set in the Advisor
-                        // LoggingAdvisor to view additional information
-                         new LoggingAdvisor(),
-                        // PromptChatMemoryAdvisor to remember chat history, using the bean from ChatMemoryConfig
-                        new PromptChatMemoryAdvisor(chatMemory)
+                        // TODO: Try the loggingAdvisor
+                        // TODO: Add memory
                 )
                 .build();
     }

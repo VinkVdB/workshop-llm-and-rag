@@ -33,7 +33,7 @@ public class Assistant {
                         // new LoggingAdvisor(),
                         new PromptChatMemoryAdvisor(chatMemory)
                 )
-                .defaultTools(new ToolConfig(passwordService)) // Tools can also be added to the chat client
+                // TODO: Add tools, see config/ToolConfig.java
                 .build();
     }
 
@@ -45,7 +45,7 @@ public class Assistant {
                             .param(CHAT_MEMORY_CONVERSATION_ID_KEY, chatId)
                             .param(CHAT_MEMORY_RETRIEVE_SIZE_KEY, 10)
                     )
-//                    .tools(...) // Tools can also be added here. E.g. if certain actions are not always available
+                    // TODO: Or add tools here, perhaps with some conditions
                     .stream()
                     .content();
         } catch (Exception e) {

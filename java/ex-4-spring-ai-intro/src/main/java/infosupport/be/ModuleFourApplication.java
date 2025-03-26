@@ -39,11 +39,7 @@ public class ModuleFourApplication {
                 System.out.print("\n> ");
                 String userMessage = scanner.nextLine();
 
-                assistant.chat("default-chat-id", userMessage)
-                        .delayElements(Duration.ofMillis(50))
-                        .doOnNext(System.out::print)
-                        .onErrorResume(e -> Flux.empty())
-                        .blockLast();
+                // TODO: Assistant has a chat method. Use doOnNext to print responses
             }
         };
     }

@@ -28,24 +28,14 @@ public class Assistant {
 
         this.chatClient = modelBuilder
                 .defaultSystem("""
-                        You are a Pokédex, you can help users find information about Pokemon.
-                        You can provide information about a Pokemon's type and evolutions.
-                        
-                        Today's date is {current_date}.
-                        
-                        Always be polite, clear, and keep interactions secure and private.
-                        Use emojis to make the conversation more engaging and for the different types of Pokemon.
-                        Use parallel function calling if useful or required.
+                        TODO: Provide a good system prompt about your chosen content
                         """)
                 .defaultAdvisors(
                         // Order does matter and is set in the Advisor Retrieve memory before RAG!
                         // new LoggingAdvisor(),
-                        new PromptChatMemoryAdvisor(chatMemory),
+                        new PromptChatMemoryAdvisor(chatMemory)
                         // QuestionAnswerAdvisor to retrieve information from the vector store that is relevant to the user's request
-                        new QuestionAnswerAdvisor(vectorStore, SearchRequest.builder()
-                                .topK(5)
-//                                .similarityThreshold(0.4d)
-                                .build())
+                        // TODO: Add QuestionAnswerAdvisor and alter the SearchRequest to get the top 5.
                 )
                 .build();
     }
