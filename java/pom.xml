@@ -24,6 +24,7 @@
 		<module>ex-6-introduction-to-rag</module>
         <module>ex-7-advanced-configurations</module>
         <module>ex-8-integrating-dalle-3</module>
+        <module>ex-10-chat-client-with-password</module>
 	</modules>
 
 	<properties>
