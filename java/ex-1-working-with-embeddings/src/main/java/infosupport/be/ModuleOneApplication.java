@@ -72,6 +72,14 @@ public class ModuleOneApplication implements CommandLineRunner {
                 "waiter", "waitress", "actor", "actress", "steward", "stewardess"
         );
         plotWordsOnCanvas(words, "he", "she", "poor", "rich");
+
+        // Music genres plotted on sad-happy and slow-fast
+//        List<String> musicGenres = List.of(
+//                "jazz", "blues", "rock", "pop", "classical", "hip-hop",
+//                "country", "metal", "punk", "reggae", "techno", "house",
+//                "trance", "dubstep", "soul", "funk", "disco", "grunge"
+//        );
+//        plotWordsOnCanvas(musicGenres, "sad", "happy", "slow", "fast");
     }
 
     // Method to shorten embedding a term, to improve fluency
